@@ -6,5 +6,5 @@
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
     * [局部变量表](chapter1/javaxu-ni-ji-zhan/ju-bu-bian-liang-biao.md)
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
-  * 堆
+  * [堆](chapter1/dui.md)
 
