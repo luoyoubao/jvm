@@ -4,3 +4,4 @@
 #### 特性 ####
 + 存放基本数据类型(boolean\byte\char\short\int\float\long\double)
 + 64位的long/double占用2个局部变量空间(Slot，变量槽)
++ 局部变量表所需的内存空间在编译器完成分配
