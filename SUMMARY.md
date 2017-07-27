@@ -7,4 +7,5 @@
     * [局部变量表](chapter1/javaxu-ni-ji-zhan/ju-bu-bian-liang-biao.md)
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
   * [堆](chapter1/dui.md)
+* [遗留问题](yi-liu-wen-ti.md)
 
