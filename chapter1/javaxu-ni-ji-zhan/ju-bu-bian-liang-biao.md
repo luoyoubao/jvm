@@ -8,3 +8,5 @@
 + 当进入一个方法时，该方法需要在帧中分配多大的局部变量空间是完全确定的，方法运行期间不会改变局部变量表的大小
 
 #### Exception ####
++ StackOverflowError(栈溢出)
++ OutOfMemoryError
