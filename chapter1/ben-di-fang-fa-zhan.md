@@ -1,1 +1,1 @@
-### 程序计数器(Program Counter Register) ###
+### Native Method Stack(本地方法栈) ###
