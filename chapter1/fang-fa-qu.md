@@ -1,1 +1,1 @@
-### JAVA堆(Heap) ###
+### Method Area(Non-Heap)方法区 ###
