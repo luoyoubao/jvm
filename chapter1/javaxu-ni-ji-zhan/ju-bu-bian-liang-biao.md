@@ -8,5 +8,5 @@
 + 当进入一个方法时，该方法需要在帧中分配多大的局部变量空间是完全确定的，方法运行期间不会改变局部变量表的大小
 
 #### Exception ####
-+ StackOverflowError(栈溢出)
-+ OutOfMemoryError
++ StackOverflowError：如果线程请求的栈深度大于虚拟机所允许的深度，抛出StackOverflowError异常；
++ OutOfMemoryError：如果虚拟机栈动态扩展时无法申请到足够的内存，抛出OutOfMemoryError异常；
