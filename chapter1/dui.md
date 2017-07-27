@@ -7,3 +7,4 @@
 #### 特性 ####
 + 唯一目的就是存放对象实例
 + JAVA堆是垃圾收集器管理的主要区域
++ 也被称为GC堆(Garbage Collected Heap)
