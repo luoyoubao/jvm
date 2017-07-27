@@ -8,5 +8,6 @@
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
   * [堆](chapter1/dui.md)
   * [方法区](chapter1/fang-fa-qu.md)
+    * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
 * [遗留问题](yi-liu-wen-ti.md)
 
