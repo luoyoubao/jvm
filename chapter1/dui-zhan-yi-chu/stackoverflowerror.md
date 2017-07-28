@@ -5,17 +5,17 @@
 package com.quancheng.jvm.oom;
 public class StackOverflowTest {
 
-    private static int stackLength = 0;
+private static int stackLength = 0;
 
-    private static void println() {
-        stackLength++;
-        System.err.println("stack length==>" + stackLength);
-        println();
-    }
+private static void println() {
+stackLength++;
+System.err.println("stack length==>" + stackLength);
+println();
+}
 
-    public static void main(String[] args) {
-        println();
-    }
+public static void main(String[] args) {
+println();
+}
 }
 ```
 
