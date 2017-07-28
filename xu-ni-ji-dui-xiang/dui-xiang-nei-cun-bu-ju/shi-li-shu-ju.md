@@ -3,3 +3,4 @@
 
 #### 特性 ####
 - 存储顺序受虚拟机分配策略参数(FieldsAllocationStyle)和字段在JAVA源码中定义的顺序的影响
+HotSpot默认的分配策略、longs/doubles、ints、shorts/chars、bytes/booleans、oops(Ordinary Object Pointers)
