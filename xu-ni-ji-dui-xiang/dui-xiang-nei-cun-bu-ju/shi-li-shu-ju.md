@@ -4,4 +4,4 @@
 #### 特性 ####
 - 存储顺序受虚拟机分配策略参数(FieldsAllocationStyle)和字段在JAVA源码中定义的顺序的影响
 - HotSpot默认的分配策略、longs/doubles、ints、shorts/chars、bytes/booleans、oops(Ordinary Object Pointers)，相同宽度的字段总是被分配到一起
-- 满足条件二的情况下，2.父类中定义的变量在子类之前
+- 满足条件二的情况下，父类中定义的变量在子类之前
