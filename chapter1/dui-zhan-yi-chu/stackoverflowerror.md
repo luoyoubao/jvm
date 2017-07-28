@@ -29,6 +29,23 @@ stack length==>6746Exception in thread "main" java.lang.StackOverflowError
 	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:10)
 	
 output(-Xss200k)============================================
-
+stack length==>1004
+stack length==>1005
+stack length==>1006Exception in thread "main" java.lang.StackOverflowError
+	at sun.nio.cs.UTF_8.updatePositions(UTF_8.java:77)
+	at sun.nio.cs.UTF_8.access$200(UTF_8.java:57)
+	at sun.nio.cs.UTF_8$Encoder.encodeArrayLoop(UTF_8.java:636)
+	at sun.nio.cs.UTF_8$Encoder.encodeLoop(UTF_8.java:691)
+	at java.nio.charset.CharsetEncoder.encode(CharsetEncoder.java:579)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:271)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.PrintStream.write(PrintStream.java:526)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:9)
+	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:10)
+	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:10)
 ```
 
