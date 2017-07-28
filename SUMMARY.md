@@ -9,6 +9,7 @@
   * [堆](chapter1/dui.md)
   * [方法区](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
+  * [直接内存](chapter1/zhi-jie-nei-cun.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
