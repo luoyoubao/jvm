@@ -10,7 +10,7 @@
   * [方法区](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
   * [直接内存](chapter1/zhi-jie-nei-cun.md)
-* 虚拟机对象
+* [虚拟机对象](xu-ni-ji-dui-xiang.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
