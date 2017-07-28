@@ -1,4 +1,4 @@
-###案例一:方法递归##
+###案例一:递归方法##
 ```
 package com.quancheng.jvm.oom;
 public class StackOverflowTest {
