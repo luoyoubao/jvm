@@ -11,6 +11,7 @@
   * [方法区](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
   * [直接内存](chapter1/zhi-jie-nei-cun.md)
+  * [知识点](chapter1/zhi-shi-dian.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
     * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
