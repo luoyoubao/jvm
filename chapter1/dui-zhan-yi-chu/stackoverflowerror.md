@@ -5,7 +5,6 @@
 package com.quancheng.jvm.oom;
 public class StackOverflowTest {
     private static int stackLength = 0;
-
     private static void println() {
         stackLength++;
         System.err.println("stack length==>" + stackLength);
