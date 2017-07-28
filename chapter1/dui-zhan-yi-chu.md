@@ -1,2 +1,1 @@
 如果线程请求的栈深度大于虚拟机允许的最大深度则抛出StackOverflowError异常
-
