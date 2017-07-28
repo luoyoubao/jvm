@@ -14,6 +14,7 @@
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
     * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
     * [实例数据](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/shi-li-shu-ju.md)
+  * [对象的访问定位](xu-ni-ji-dui-xiang/dui-xiang-de-fang-wen-ding-wei.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
