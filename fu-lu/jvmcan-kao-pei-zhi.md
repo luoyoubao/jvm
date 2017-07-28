@@ -12,4 +12,4 @@ JAVA_OPTS="${JAVA_OPTS} -Dsun.net.client.defaultConnectTimeout=10000"
 JAVA_OPTS="${JAVA_OPTS} -Dsun.net.client.defaultReadTimeout=30000"
 java -Djava.security.egd=file:/dev/./urandom $JAVA_OPTS -jar ./app.jar  $*
 ```
-
+PS：参考配置
