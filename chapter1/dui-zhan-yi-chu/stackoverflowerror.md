@@ -28,7 +28,7 @@ stack length==>6746Exception in thread "main" java.lang.StackOverflowError
 	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:9)
 	at com.quancheng.jvm.oom.StackOverflowTest.println(StackOverflowTest.java:10)
 	
-output(jvm默认参数)============================================
+output(-Xss200k)============================================
 
 ```
 
