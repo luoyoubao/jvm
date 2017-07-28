@@ -13,7 +13,7 @@ public class StackOverflowTest {
         println();
     }
 }
-output============================================
+output(jvm默认参数)============================================
 stack length==>6745
 stack length==>6746Exception in thread "main" java.lang.StackOverflowError
 	at sun.nio.cs.UTF_8$Encoder.encodeLoop(UTF_8.java:691)
