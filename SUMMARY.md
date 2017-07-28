@@ -12,6 +12,7 @@
   * [直接内存](chapter1/zhi-jie-nei-cun.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
+    * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
