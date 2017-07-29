@@ -23,5 +23,10 @@ public class DirectMemoryTest {
 }
 
 output============================================
-
+java(16010,0x700002d01000) malloc: *** mach_vm_map(size=67108864) failed (error code=3)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+Exception in thread "main" java.lang.OutOfMemoryError
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.quancheng.jvm.oom.DirectMemoryTest.main(DirectMemoryTest.java:15)
 ```
