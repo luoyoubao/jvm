@@ -1,5 +1,5 @@
 ### JAVA引用分类 ###
-+ 强引用：Strong Reference
-+ 软引用：Soft Reference
-+ 弱引用：Weak Reference
-+ 虚引用：Phantom Reference
++ 强引用：StrongReference
++ 软引用：SoftReference
++ 弱引用：WeakReference
++ 虚引用：PhantomReference
