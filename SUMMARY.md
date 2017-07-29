@@ -23,6 +23,7 @@
   * [对象的访问定位](xu-ni-ji-dui-xiang/dui-xiang-de-fang-wen-ding-wei.md)
 * [垃圾收集器与内存分配策略](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve.md)
   * [内存管理](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li.md)
+    * [JAVA引用分类](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/javayin-yong-fen-lei.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
