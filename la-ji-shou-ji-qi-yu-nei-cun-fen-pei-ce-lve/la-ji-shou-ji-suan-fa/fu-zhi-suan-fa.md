@@ -16,4 +16,4 @@
 * 分配担保(Handle Promotion)
 
 
-HotSpot新生代的内存划分
+HotSpot新生代的内存划分比例为80%:10%:10%
