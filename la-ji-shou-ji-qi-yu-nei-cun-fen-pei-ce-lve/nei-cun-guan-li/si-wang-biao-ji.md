@@ -2,6 +2,5 @@
 * F-Queue
 * finalize()
 
-
 #### 标记 ####
 finalize()方法是对象逃脱死亡命运的最后一次机会
