@@ -12,5 +12,5 @@
 
 #### 重点 ####
 * 现在的商业JVM都采用这种收集算法来回收新生代
-* Eden:Survivor=8:1(HotSpot)
+* Eden:Survivor=8:1(HotSpot默认)
 * 分配担保(Handle Promotion)
