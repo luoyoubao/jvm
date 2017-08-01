@@ -15,5 +15,5 @@
 * Eden:Survivor=8:1(HotSpot默认)
 * 分配担保(Handle Promotion)
 
-
+#### HotSpot新生代的内存划分 ###
 HotSpot新生代的内存划分比例为80%:10%:10%
