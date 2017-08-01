@@ -1,5 +1,4 @@
-### Parallel Scavenge收集器 ###
-特点
+### Parallel Scavenge收集器特性 ###
 * 新生代收集器
 * 使用复制算法的收集器
 * 多线程收集器
