@@ -8,3 +8,5 @@
 #### GC停顿方案 ####
 * 抢先式中断(Preemptive Suspension)	
 * 主动式中断(Voluntary Suspension)
+
+#### 重点 #
