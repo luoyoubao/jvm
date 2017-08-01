@@ -14,3 +14,4 @@
 
 #### 重点 #
 * 线程处于Sleep状态或Blocked状态时无法响应JVM的中断请求
+* JVM发起GC时会忽略已标识为SafeRegion状态的线程
