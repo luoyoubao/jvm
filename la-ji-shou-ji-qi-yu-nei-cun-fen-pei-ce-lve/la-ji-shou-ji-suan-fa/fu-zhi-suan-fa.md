@@ -13,7 +13,7 @@
 #### 重点 ####
 * 现在的商业JVM都采用这种收集算法来回收新生代
 * Eden:Survivor=8:1(HotSpot默认)
-* 分配担保(Handle Promotion)
+* 分配担保(Handle Promotion)，当Survivor空间不够时，需要老年代进行分配担保
 
 #### HotSpot新生代的内存划分 ###
 * HotSpot新生代的内存划分比例为80%:10%:10%
