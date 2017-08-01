@@ -30,6 +30,7 @@
     * [标记-清除算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/biao-8bb0-qing-chu-suan-fa.md)
     * [复制算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/fu-zhi-suan-fa.md)
     * [标记-整理算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/biao-8bb0-zheng-li-suan-fa.md)
+    * [分代收集算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/fen-dai-shou-ji-suan-fa.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
