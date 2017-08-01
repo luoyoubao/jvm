@@ -4,3 +4,5 @@
 
 ####安全点(Safepoint)#
 意思就是一个点, 在这个点, 所有GC Root的状态都是已知并且heap里的对象是一致的; 在这个点进行GC时, 所有的线程都需要block住, 这就是(STW)Stop The World
+
+#### GC停顿方案 ####
