@@ -35,6 +35,7 @@
   * [垃圾收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi.md)
     * [Serial收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/serialshou-ji-qi.md)
     * [ParNew收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/parnewshou-ji-qi.md)
+    * [Parallel Scavenge收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/parallel-scavengeshou-ji-qi.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
