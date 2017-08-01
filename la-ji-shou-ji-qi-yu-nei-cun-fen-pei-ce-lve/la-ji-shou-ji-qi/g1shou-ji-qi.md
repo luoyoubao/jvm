@@ -9,3 +9,9 @@
 * 可预测的停顿(它可以有计划的避免在整个JAVA堆中进行全区域的垃圾收集)
 * **JAVA堆内存布局与其它收集器存在很大差别**，它将整个JAVA堆划分为多个大小相等的独立区域(Region)，虽然还保留了新生代和老年代的概念，但新生代和老年代不再是物理隔离，它们都是一部分Region(不需要连续)的集合
 * G1收集器中，虚拟机使用Remembered Set来避免全堆扫描
+
+#### 运作步骤 ####
+* 初始标记：Initial Marking
+* 并发标记：Concurrent Marking
+* 最终标记：Final Marking
+* 筛选回收：Live Data Counting And Evacuation
