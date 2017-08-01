@@ -9,5 +9,7 @@
 * 抢先式中断(Preemptive Suspension)	
 * 主动式中断(Voluntary Suspension)
 
+####安全区域(Safe Region)#
+
 #### 重点 #
 * 线程处于Sleep状态或Blocked状态时无法响应JVM的中断请求
