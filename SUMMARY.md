@@ -47,10 +47,10 @@
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
+  * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
   * [方法访问标识](fu-lu/fang-fa-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
-  * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
 
