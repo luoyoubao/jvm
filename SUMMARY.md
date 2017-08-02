@@ -47,5 +47,6 @@
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
+  * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
 
