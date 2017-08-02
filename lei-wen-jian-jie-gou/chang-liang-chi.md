@@ -10,3 +10,4 @@
 
 ####常量池存储对象####
 **字面量(Literal)**
+**符号引用(Symbolic References)**
