@@ -21,6 +21,5 @@
 * 方法的名称和描述符
 
 **JAVA标识符与CONSTANT\_Utf8\_info**
-
 ![](/assets/201708030029.png)
 
