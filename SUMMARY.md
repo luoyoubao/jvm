@@ -45,6 +45,6 @@
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
+  * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
-* Class文件格式
 
