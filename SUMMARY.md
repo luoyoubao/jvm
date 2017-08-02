@@ -41,6 +41,7 @@
     * [CMS收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/cmsshou-ji-qi.md)
     * [G1收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/g1shou-ji-qi.md)
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
+  * [内存分配与回收策略](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-fen-pei-yu-hui-shou-ce-lve.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
