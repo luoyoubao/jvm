@@ -42,6 +42,7 @@
     * [G1收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/g1shou-ji-qi.md)
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
 * [类文件结构](lei-wen-jian-jie-gou.md)
+  * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
