@@ -15,3 +15,5 @@
 - 类和接口的全限定名(Fully Qualified Name)
 - 字段的名称和描述符(Descriptor)
 - 方法的名称和描述符
+
+**JAVA标识符与CONSTANT_Utf8_info**
