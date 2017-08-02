@@ -49,4 +49,5 @@
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
   * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
+  * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
 
