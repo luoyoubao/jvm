@@ -44,7 +44,6 @@
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
-* [遗留问题](yi-liu-wen-ti.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
   * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
@@ -53,4 +52,5 @@
   * [方法访问标识](fu-lu/fang-fa-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
+* [遗留问题](yi-liu-wen-ti.md)
 
