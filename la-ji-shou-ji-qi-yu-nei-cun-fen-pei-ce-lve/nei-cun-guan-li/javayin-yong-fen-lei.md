@@ -5,7 +5,9 @@
 + 虚引用：PhantomReference
 
 ### JVM引用类型 ###
-
++ 类类型(class type)
++ 数组类型(array type)
++ 接口类型(interface type)
 
 ####StrongReference#
 GC任何时候都不会回收StrongReference，哪怕内存不足时，系统会直接抛出异常OutOfMemoryError，也不会去回收，首先要说明的是java中默认就是强引用
