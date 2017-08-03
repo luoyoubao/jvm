@@ -7,7 +7,7 @@
 ### JVM引用类型 ###
 + 类类型(class type)
 + 数组类型(array type)
-+ 接口类型(interface type)
++ 接口类型(interface type)<br>
 **说明**这些引用类型的值分别由类实例、数组实例以及实现了某个接口的派生类实例负责动态创建
 
 ####StrongReference#
