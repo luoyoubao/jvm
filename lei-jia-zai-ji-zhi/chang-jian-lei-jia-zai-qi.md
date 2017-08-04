@@ -4,3 +4,4 @@
 * AppClassLoader
 
 ####Bootstrap ClassLoader####
+称为启动类加载器，主要负责加载"JAVA_HOME/lib"目录下的所有类型，或者由"-Xbootclasspath"
