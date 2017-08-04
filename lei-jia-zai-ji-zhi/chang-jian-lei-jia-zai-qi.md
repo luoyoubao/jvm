@@ -8,3 +8,6 @@
 
 #### ExtClassLoader ####
 ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载"JAVA_HOME/lib/ext"扩展目录中的所有类型
+
+#### AppClassLoader ####
+ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载ClassPath目录中的所有类型
