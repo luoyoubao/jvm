@@ -43,7 +43,7 @@
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
-* 类加载机制
+* [类加载机制](lei-jia-zai-ji-zhi.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
