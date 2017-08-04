@@ -12,6 +12,8 @@
 * 能够有效确保一个类的全局唯一性(同一个类只会被加载一次)
 
 #### java.lang.ClassNotFoundException ####
+- Class.forName()
+- ClassLoader.getSystemClassLoader().loadClass()
 
 
 ####知识点 ####
