@@ -1,2 +1,2 @@
 ###双亲委派模型###
-**双亲委派模型(Parents Delegation Model)**
+**双亲委派模型(Parents Delegation Model):**按照双亲委派模型的规则，除了启动类加载器之外，所有的类加载器都拥有一个超类加载器
