@@ -45,6 +45,7 @@
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
   * [常见类加载器](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi.md)
+  * [抽象类ClassLoader](lei-jia-zai-ji-zhi/chou-xiang-lei-classloader.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
