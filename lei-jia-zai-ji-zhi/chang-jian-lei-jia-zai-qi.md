@@ -11,3 +11,20 @@ ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载"JAVA_HOME/li
 
 #### AppClassLoader ####
 ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载ClassPath目录中的所有类型
+```
+package com.quancheng.jvm;
+
+public class Appliction {
+
+    public static void main(String[] args) {
+        ClassLoader bootstrap = System.class.getClassLoader();
+        System.err.println(null != bootstrap ? bootstrap.getClass().getName() : null);
+
+        ClassLoader ext = sun.security.ec.SunEC.class.getClassLoader();
+        System.err.println(ext);
+
+        ClassLoader app = Appliction.class.getClassLoader();
+        System.err.println(app.getClass().getName());
+    }
+}
+```
