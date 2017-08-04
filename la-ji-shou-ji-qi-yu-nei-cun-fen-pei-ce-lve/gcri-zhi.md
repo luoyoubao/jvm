@@ -15,4 +15,7 @@
 
 
 #### GC日志分析工具 ####
-GCHisto/GCLogViewer/HPjmeter/GCViewer
+- GCHisto
+- GCLogViewer
+- HPjmeter
+- GCViewer
