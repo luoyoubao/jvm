@@ -12,8 +12,10 @@
 * 能够有效确保一个类的全局唯一性(同一个类只会被加载一次)
 
 #### java.lang.ClassNotFoundException ####
+显示调用下面两种方式可能会导致类加载异常:
 - Class.forName()
 - ClassLoader.getSystemClassLoader().loadClass()
+
 
 
 ####知识点 ####
