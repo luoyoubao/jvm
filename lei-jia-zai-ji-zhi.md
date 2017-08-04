@@ -6,3 +6,4 @@
 - 自定义类加载器(User Defined Classloader)
 
 ###知识点###
+* JAVA虚拟机规范定义：所有派生于抽象类Classloader的类加载器都划分为自定义类加载器
