@@ -3,3 +3,4 @@
 + 栈上分配
 + 标量替换
 + CGLib
++ Tos(Top-of-stack Cashing)
