@@ -47,6 +47,7 @@
   * [常见类加载器](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi.md)
   * [抽象类ClassLoader](lei-jia-zai-ji-zhi/chou-xiang-lei-classloader.md)
   * [双亲委派模型](lei-jia-zai-ji-zhi/shuang-qin-wei-pai-mo-xing.md)
+* [JVM指令](jvmzhi-ling.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [附录](fu-lu.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
@@ -57,5 +58,5 @@
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
-* [遗留问题](yi-liu-wen-ti.md)
+* JVM指令
 
