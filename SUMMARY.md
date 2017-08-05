@@ -56,5 +56,6 @@
   * [方法访问标识](fu-lu/fang-fa-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
+  * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
 * [遗留问题](yi-liu-wen-ti.md)
 
