@@ -14,7 +14,6 @@
 #### 常量池存储对象
 **字面量\(Literal\)**  
 **符号引用\(Symbolic References\)**
-
 * 类和接口的全限定名\(Fully Qualified Name\)
 * 字段的名称和描述符\(Descriptor\)
 * 方法的名称和描述符
