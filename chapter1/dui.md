@@ -12,7 +12,7 @@
 * 根据JAVA虚拟机规范规定，JAVA堆物理上可以位于不连续的内存空间中，只要逻辑上连续即可
 
 #### 知识点 ####
-
+基于OpenJDK深度定制的TaoBaoVM,使用GCIH(GC invisible heap)技术实现off-heap，将生命周期较长的JAVA对象从heap中移至heap外，且GC不能管理GCIH内部的JAVA对象，以此达到降低GC回收频率和提升GC回收效率的目的
 
 
 #### JAVA Heap分代 ####
