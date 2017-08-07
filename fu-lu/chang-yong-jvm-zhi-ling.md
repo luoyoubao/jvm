@@ -4,6 +4,8 @@
 |0xac|ireturn|从当前方法返回int(当返回值是boolean/byte/char/short/int类型时使用)|
 |0xad|lreturn|从当前方法返回long|
 |0xac|freturn|从当前方法返回float|
+|0xaf|dreturn|从当前方法返回double|
+|0xb0|areturn|从当前方法返回对象引用|
 
 
 
