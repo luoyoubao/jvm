@@ -58,5 +58,5 @@
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [JVM参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
-* JVM指令
+* [JVM指令](jvmzhi-ling.md)
 
