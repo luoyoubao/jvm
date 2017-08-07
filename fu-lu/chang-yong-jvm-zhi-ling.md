@@ -7,6 +7,7 @@
 |0xaf|dreturn|从当前方法返回double|
 |0xb0|areturn|从当前方法返回对象引用|
 |0xb1|return|从当前方法返回void(声明为void的方法、实例初始化方法、类和接口的初始化方法使用)|
+|0xbb|new|创建一个对象，并将其引用值压入栈顶|
 
 
 
