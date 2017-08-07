@@ -11,6 +11,7 @@
 |0xbc|newarray|创建一个指定原始类型(如int/float/char)的数组，并将其引用值压入栈顶|
 |0xbf|athrow|将栈顶的异常抛出|
 |0xc2|monitorenter|获取对象的监视锁，用于同步方法或同步块|
+|0xc3|monitorexit|释放对象监视锁，用于同步方法或同步块|
 
 
 
