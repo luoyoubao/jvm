@@ -37,7 +37,7 @@ class {
     attribute_info    attributes[attributes_count];
 }
 ```
-
+**示意图**
 ![](/assets/201708092326.png)
 
 
