@@ -48,7 +48,7 @@
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
   * [访问标志](lei-wen-jian-jie-gou/fang-wen-biao-zhi.md)
   * [父类索引](lei-wen-jian-jie-gou/fu-lei-suo-yin.md)
-  * [接口信息区](lei-wen-jian-jie-gou/jie-kou-qu.md)
+  * [接口集合](lei-wen-jian-jie-gou/jie-kou-qu.md)
   * [字段信息区](lei-wen-jian-jie-gou/zi-duan-xin-xi-qu.md)
   * [方法信息区](lei-wen-jian-jie-gou/fang-fa-xin-xi-qu.md)
   * [属性信息区](lei-wen-jian-jie-gou/shu-xing-xin-xi-qu.md)
