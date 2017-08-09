@@ -49,6 +49,7 @@
   * [访问标志](lei-wen-jian-jie-gou/fang-wen-biao-zhi.md)
   * [父类索引](lei-wen-jian-jie-gou/fu-lei-suo-yin.md)
   * [接口信息区](lei-wen-jian-jie-gou/jie-kou-qu.md)
+  * [字段信息区](lei-wen-jian-jie-gou/zi-duan-xin-xi-qu.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
   * [类加载时机](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
   * [抽象类ClassLoader](lei-jia-zai-ji-zhi/chou-xiang-lei-classloader.md)
