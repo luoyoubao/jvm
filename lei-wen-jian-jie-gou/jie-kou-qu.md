@@ -1,4 +1,4 @@
-###接口区###
+###接口信息区###
 包含两部分：
 - 接口计数器(interfaces_count)
 - 接口信息数据区(interfaces[interfaces_count])
