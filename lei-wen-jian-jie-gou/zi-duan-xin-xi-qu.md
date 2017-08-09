@@ -1,6 +1,7 @@
 ###字段信息区###
 包含两部分：
 - 字段计数器(fields_count)
+- 字段信息数据区(fields[fields_count])
 
 
 ####字段计数器(fields_count)####
