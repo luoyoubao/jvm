@@ -44,6 +44,7 @@
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [魔数](lei-wen-jian-jie-gou/mo-shu.md)
+  * [版本号](lei-wen-jian-jie-gou/ban-ben-hao.md)
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
   * [访问标志](lei-wen-jian-jie-gou/fang-wen-biao-zhi.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
