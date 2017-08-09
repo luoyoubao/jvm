@@ -16,5 +16,5 @@
             <td>3.2</td>  
             <td>3.3</td>  
         </tr>  
-    </table>  
+</table>  
 
