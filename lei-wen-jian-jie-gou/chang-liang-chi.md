@@ -13,6 +13,7 @@
 #### 常量池计数器(constant_pool_count) #### 
 常量池是class文件中非常重要的结构，它描述着整个class文件的字面量信息。 常量池是由一组constant_pool结构体数组组成的，而数组的大小则由常量池计数器指定。常量池计数器constant_pool_count 的值 =constant_pool表中的成员数+ 1。constant_pool表的索引值只有在大于 0 且小于constant_pool_count时才会被认为是有效的
 
+#### 常量池数据区(constant_pool[contstant_pool_count-1]) ####
 
 #### 常量池存储对象####
 **字面量\(Literal\)**  
