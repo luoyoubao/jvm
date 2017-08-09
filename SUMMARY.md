@@ -55,6 +55,7 @@
 * [JVM指令](jvmzhi-ling.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [附录](fu-lu.md)
+  * [class文件版本号](fu-lu/classwen-jian-ban-ben-hao.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
   * [JVM常量池](fu-lu/jvmchang-liang-chi.md)
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
