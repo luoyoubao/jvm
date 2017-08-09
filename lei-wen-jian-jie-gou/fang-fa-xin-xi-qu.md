@@ -1,4 +1,4 @@
-###方法信息区 ###
+###方法集合 ###
 包含两部分：
 - 方法计数器(methods_count)
 - 方法信息数据区(methods[methods_count])

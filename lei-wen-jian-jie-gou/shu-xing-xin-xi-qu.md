@@ -1,4 +1,4 @@
-### 属性信息区 ###
+### 属性集合 ###
 包含两部分：
 - 属性计数器(attributes_count)
 - 属性信息数据区(attributes[attributes_count])
