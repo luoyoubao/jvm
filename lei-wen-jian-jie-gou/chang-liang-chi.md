@@ -1,6 +1,6 @@
 ### 常量池
 
-**常量池**可以理解为Class文件的资源仓库
+**常量池**可以理解为Class文件的资源仓库；常量池是class文件中非常重要的结构，它描述着整个class文件的字面量信息。 常量池是由一组constant_pool结构体数组组成的，而数组的大小则由常量池计数器指定。常量池计数器constant_pool_count 的值 =constant_pool表中的成员数+ 1。constant_pool表的索引值只有在大于 0 且小于constant_pool_count时才会被认为是有效的。
 
 #### 特性 ####
 * Class文件结构中与其他项目关联最多的数据类型
