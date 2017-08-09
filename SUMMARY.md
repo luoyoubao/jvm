@@ -43,6 +43,7 @@
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [常量池](lei-wen-jian-jie-gou/chang-liang-chi.md)
+  * [访问标志](lei-wen-jian-jie-gou/fang-wen-biao-zhi.md)
   * [常量传播优化](lei-wen-jian-jie-gou/chang-liang-chuan-bo-you-hua.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
   * [类加载时机](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
