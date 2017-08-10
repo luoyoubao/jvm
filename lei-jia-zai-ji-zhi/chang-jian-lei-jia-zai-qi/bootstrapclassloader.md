@@ -1,6 +1,6 @@
 ###BootstrapClassLoader###
 引导类加载器(Bootstrap Classloader)会读取{JRE_HOME}/lib下的jar包和配置，然后将这些系统类加载到方法区内:
-
+***
 | 文件        | 描述           |
 | :-------------: |:-------------:|
 | rt.jar      | 运行环境包，rt即runtime，J2SE 的类定义都在这个包内 |
