@@ -36,7 +36,6 @@
 ![](/assets/201708112332.png)
 
 
-
 **JAVA标识符与CONSTANT\_Utf8\_info**  
 ![](/assets/201708030029.png)
 
