@@ -28,6 +28,9 @@
 图示：
 ![](/assets/201708112310.png)
 ---
+** CONSTANT_Long_info & CONSTANT_Double_info **
+
+
 **JAVA标识符与CONSTANT\_Utf8\_info**  
 ![](/assets/201708030029.png)
 
