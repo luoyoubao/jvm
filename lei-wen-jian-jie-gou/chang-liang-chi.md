@@ -20,16 +20,13 @@
 常量池，constant\_pool是一种表结构,它包含 Class 文件结构及其子结构中引用的所有字符串常量、 类或接口名、字段名和其它常量。 常量池中的每一项都具备相同的格式特征——第一个字节作为类型标记用于识别该项是哪种类型的常量，称为 “tag byte” 。常量池的索引范围是 1 至constant\_pool\_count−1
 
 #### 常量池存储对象
-
 **字面量\(Literal\)**  
 **符号引用\(Symbolic References\)**
-
 * 类和接口的全限定名\(Fully Qualified Name\)
 * 字段的名称和描述符\(Descriptor\)
 * 方法的名称和描述符
 
 图示：
-
 ![](/assets/201708112310.png)
 
 
