@@ -69,4 +69,5 @@
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [jvm常量池](fu-lu/jvmchang-liang-chi.md)
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
+  * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
 
