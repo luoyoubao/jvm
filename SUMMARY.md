@@ -62,4 +62,5 @@
 * [JVM实用参数](jvmshi-yong-can-shu.md)
 * [JVM指令](jvmzhi-ling.md)
 * [附录](fu-lu.md)
+  * [常用JVM指令](chang-yong-jvm-zhi-ling.md)
 
