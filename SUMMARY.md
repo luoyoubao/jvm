@@ -61,5 +61,5 @@
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
 * [JVM实用参数](jvmshi-yong-can-shu.md)
 * [JVM指令](jvmzhi-ling.md)
-* JVM实用参数
+* [附录](fu-lu.md)
 
