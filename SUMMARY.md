@@ -65,8 +65,8 @@
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
   * [Class文件版本号](fu-lu/classwen-jian-ban-ben-hao.md)
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
-  * [](fu-lu/.md)
-  * []()
+  * [方法访问标识](fu-lu/fang-fa-fang-wen-biao-shi.md)
+  * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
 
 
 
