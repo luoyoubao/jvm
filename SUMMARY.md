@@ -67,6 +67,6 @@
   * [Class文件格式](fu-lu/classwen-jian-ge-shi.md)
   * [方法访问标识](fu-lu/fang-fa-fang-wen-biao-shi.md)
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
-
+  * [jvm常量池](fu-lu/jvmchang-liang-chi.md)
 
 
