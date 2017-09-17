@@ -17,6 +17,7 @@
   * [OutOfMemoryError](chapter1/outofmemoryerror.md)
     * [本地内存溢出](chapter1/outofmemoryerror/ben-di-nei-cun-yi-chu.md)
   * [知识点](chapter1/zhi-shi-dian.md)
+  * [指令重排](chapter1/zhi-ling-zhong-pai.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
     * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
