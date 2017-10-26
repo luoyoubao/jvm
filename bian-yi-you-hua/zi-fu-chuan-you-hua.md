@@ -3,6 +3,11 @@
 ```
 String st = "a" + "b" + "c";
 javap out==============>
+Code:
+stack=1, locals=2, args_size=1
+ 0: ldc           #19                 // String abc
+ 2: astore_1
+ 3: return
 ```
 
 
