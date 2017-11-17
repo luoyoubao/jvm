@@ -8,6 +8,7 @@
     * [局部变量表](chapter1/javaxu-ni-ji-zhan/ju-bu-bian-liang-biao.md)
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
   * [堆](chapter1/dui.md)
+    * [逃逸分析](chapter1/dui/tao-yi-fen-xi.md)
   * [方法区](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
     * [常量传播优化](chapter1/fang-fa-qu/chang-liang-chuan-bo-you-hua.md)
