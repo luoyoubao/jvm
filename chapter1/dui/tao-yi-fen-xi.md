@@ -22,3 +22,9 @@
 
 通过-XX:+EliminateAllocations可以开启标量替换， -XX:+PrintEliminateAllocations查看标量替换情况
 
+
+
+##### 栈上分配
+
+
+
