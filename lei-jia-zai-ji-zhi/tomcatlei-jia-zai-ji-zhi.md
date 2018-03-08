@@ -2,7 +2,7 @@
 
 #### 加载顺序
 
-#### 1.使用bootstrap引导类加载器加载，加载JVM启动所需的类，以及标准扩展类（位于jre/lib/ext下）；
+使用bootstrap引导类加载器加载，加载JVM启动所需的类，以及标准扩展类（位于jre/lib/ext下）；
 
 2.使用system系统类加载器加载，加载tomcat启动的类，比如bootstrap.jar，通常在catalina.bat或者catalina.sh中指定。位于CATALINA\_HOME/bin下；
 
