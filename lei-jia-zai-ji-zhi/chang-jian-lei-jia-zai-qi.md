@@ -1,17 +1,22 @@
-### 最常见的类加载器分类 ###
+### 最常见的类加载器分类
+
 * Bootstrap ClassLoader
 * ExtClassLoader
 * AppClassLoader
 
-####Bootstrap ClassLoader####
-- 称为启动类加载器，主要负责加载"JAVA_HOME/lib"目录下的所有类型，或者由"-Xbootclasspath"指定路径中的所有类型
-- 启动类加载器由C++编写并嵌在JVM内部，所有加载器名称为Null
+#### Bootstrap ClassLoader
 
-#### ExtClassLoader ####
-ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载"JAVA_HOME/lib/ext"扩展目录中的所有类型
+* 称为启动类加载器，主要负责加载"JAVA\_HOME/lib"目录下的所有类型，或者由"-Xbootclasspath"指定路径中的所有类型
+* 启动类加载器由C++编写并嵌在JVM内部，所有加载器名称为Null
 
-#### AppClassLoader ####
-ExtClassLoader派生于ClassLoader(Java语言编写)，负责加载ClassPath目录中的所有类型
+#### ExtClassLoader
+
+ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载"JAVA\_HOME/lib/ext"扩展目录中的所有类型
+
+#### AppClassLoader
+
+ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载ClassPath目录中的所有类型
+
 ```
 package com.quancheng.jvm;
 
@@ -29,3 +34,6 @@ public class Appliction {
     }
 }
 ```
+
+
+
