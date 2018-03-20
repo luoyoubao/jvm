@@ -27,6 +27,7 @@
     * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
     * [实例数据](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/shi-li-shu-ju.md)
   * [对象的访问定位](xu-ni-ji-dui-xiang/dui-xiang-de-fang-wen-ding-wei.md)
+  * 对象创建原理
 * [垃圾收集器与内存分配策略](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve.md)
   * [内存管理](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li.md)
     * [JAVA引用分类](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/javayin-yong-fen-lei.md)
