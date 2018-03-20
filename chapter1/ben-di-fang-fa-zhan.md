@@ -4,15 +4,11 @@
 
 特性
 
-线程私有
-
-后进先出（LIFO）栈
-
-作用是支撑Native方法的调用、执行和退出
-
-可能出现OutOfMemoryError异常和StackOverflowError异常
-
-有一些虚拟机（如HotSpot）将Java虚拟机栈和本地方法栈合并实现
+* 线程私有
+* 后进先出（LIFO）栈
+* 作用是支撑Native方法的调用、执行和退出
+* 可能出现OutOfMemoryError异常和StackOverflowError异常
+* 有一些虚拟机（如HotSpot）将Java虚拟机栈和本地方法栈合并实现
 
 #### Exception
 
