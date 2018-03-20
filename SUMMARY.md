@@ -23,7 +23,7 @@
   * [知识点](chapter1/zhi-shi-dian.md)
   * [指令重排](chapter1/zhi-ling-zhong-pai.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
-  * 对象创建原理
+  * [对象创建原理](xu-ni-ji-dui-xiang/dui-xiang-chuang-jian-yuan-li.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
     * [对象头](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/dui-xiang-tou.md)
     * [实例数据](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/shi-li-shu-ju.md)
@@ -81,3 +81,4 @@
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
 * [编译优化](bian-yi-you-hua.md)
   * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
+
