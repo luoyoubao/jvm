@@ -1,0 +1,2 @@
+![](/assets/java-new.jpg)
+
