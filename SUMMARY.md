@@ -7,7 +7,7 @@
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
     * [局部变量表](chapter1/javaxu-ni-ji-zhan/ju-bu-bian-liang-biao.md)
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
-    * 栈帧
+    * [栈帧](chapter1/ben-di-fang-fa-zhan/zhan-zheng.md)
   * [堆](chapter1/dui.md)
     * [逃逸分析](chapter1/dui/tao-yi-fen-xi.md)
   * [方法区](chapter1/fang-fa-qu.md)
