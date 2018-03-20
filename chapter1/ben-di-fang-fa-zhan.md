@@ -12,7 +12,7 @@
 
 #### Exception
 
-* StackOverflowError\(栈溢出\)
+* StackOverflowError(栈溢出)
 * OutOfMemoryError
 
 
