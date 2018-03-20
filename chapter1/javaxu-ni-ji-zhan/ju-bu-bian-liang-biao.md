@@ -2,18 +2,6 @@
 
 定义：局部变量表存放编译期可知的基本数据类型、对象引用\(reference类型，它不等同于对象本身，可能是一个指向对象起始地址的引用指针，也可能是指向代表对象的句柄或其他与此对象相关的位置\)和returnAddress类型\(指向一条字节码指令地址\)
 
-#### 
-
-#### 局部变量表概念和特征
-
-#### 由若干个Slot组成，长度由编译期决定
-
-#### 单个Slot可以存储一个类型为boolean,byte,char,short,float,reference和returnAddress的数据，两个Slot可以存储一个类型为long或double的数据
-
-#### 局部变量表用于方法间参数传递，以及方法执行过程中存储基础数据类型的值和对象的引用
-
-#### 
-
 #### 特性
 
 * 单个Slot可以存放基本数据类型\(boolean\byte\char\short\int\float\long\double\)；
