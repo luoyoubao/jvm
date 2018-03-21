@@ -12,6 +12,7 @@
   * [JVM Stacks && Native Stacks](chapter1/jvm-stacks-andand-native-stacks.md)
   * [堆](chapter1/dui.md)
     * [逃逸分析](chapter1/dui/tao-yi-fen-xi.md)
+    * [栈上分配](chapter1/dui/zhan-shang-fen-pei.md)
   * [方法区](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
     * [常量传播优化](chapter1/fang-fa-qu/chang-liang-chuan-bo-you-hua.md)
