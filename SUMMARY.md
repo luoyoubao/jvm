@@ -82,4 +82,5 @@
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
 * [编译优化](bian-yi-you-hua.md)
   * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
+* JAVA内存模型
 
