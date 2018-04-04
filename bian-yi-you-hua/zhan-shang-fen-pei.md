@@ -60,3 +60,11 @@ class User {
 
 可以发现：关闭逃逸分析之后，User对象一个不少的都在堆上进行分配
 
+2、通过
+
+```
+java -cp . -Xmx3G -Xmn2G -server JVM
+```
+
+运行代码，结果如下：
+
