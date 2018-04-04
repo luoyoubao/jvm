@@ -70,3 +70,5 @@ java -cp . -Xmx3G -Xmn2G -server JVM
 
 ![](/assets/20180404113612001.png)
 
+可以发现：开启逃逸分析之后，只有41w左右的User对象在Java堆上分配，其余的对象已经通过标量替换优化了。
+
