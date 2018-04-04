@@ -68,3 +68,5 @@ java -cp . -Xmx3G -Xmn2G -server JVM
 
 运行代码，结果如下：
 
+![](/assets/20180404113612001.png)
+
