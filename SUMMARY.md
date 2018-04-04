@@ -60,7 +60,7 @@
   * [方法集合](lei-wen-jian-jie-gou/fang-fa-xin-xi-qu.md)
   * [属性集合](lei-wen-jian-jie-gou/shu-xing-xin-xi-qu.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
-  * [类加载时机](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
+  * [类加载过程](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
   * [抽象类ClassLoader](lei-jia-zai-ji-zhi/chou-xiang-lei-classloader.md)
   * [常见类加载器](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi.md)
     * [BootstrapClassLoader](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi/bootstrapclassloader.md)
