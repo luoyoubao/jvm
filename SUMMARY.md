@@ -84,5 +84,6 @@
   * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
   * [方法内联](bian-yi-you-hua/fang-fa-nei-lian.md)
   * [逃逸分析](bian-yi-you-hua/tao-yi-fen-xi.md)
+  * [同步消除](bian-yi-you-hua/tong-bu-xiao-chu.md)
 * [JAVA内存模型](javanei-cun-mo-xing.md)
 
