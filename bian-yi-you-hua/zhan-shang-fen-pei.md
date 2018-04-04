@@ -80,3 +80,5 @@ java -cp . -Xmx3G -Xmn2G -server -XX:-TieredCompilation
 
 运行代码，关闭分层编译，结果如下
 
+![](/assets/20180404113715001.png)
+
