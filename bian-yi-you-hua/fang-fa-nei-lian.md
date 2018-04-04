@@ -14,3 +14,11 @@ private int add2(int x1, int x2) {
 
 JVM会把add2方法去掉，并把你的代码翻译成：
 
+```
+private int add4(int x1, int x2, int x3, int x4) {  
+    return x1 + x2 + x3 + x4;  
+}
+```
+
+
+
