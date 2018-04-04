@@ -86,5 +86,6 @@
   * [逃逸分析](bian-yi-you-hua/tao-yi-fen-xi.md)
   * [同步消除](bian-yi-you-hua/tong-bu-xiao-chu.md)
   * [标量替换](bian-yi-you-hua/biao-liang-ti-huan.md)
+  * [栈上分配](bian-yi-you-hua/zhan-shang-fen-pei.md)
 * [JAVA内存模型](javanei-cun-mo-xing.md)
 
