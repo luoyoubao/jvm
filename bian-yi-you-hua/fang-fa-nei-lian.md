@@ -12,5 +12,5 @@ private int add2(int x1, int x2) {
 }
 ```
 
-
+JVM会把add2方法去掉，并把你的代码翻译成：
 
