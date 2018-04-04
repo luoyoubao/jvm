@@ -1,4 +1,4 @@
-JIT
+### JIT
 
 即时编译（Just-in-time Compilation，JIT）是一种通过在运行时将字节码翻译为机器码，从而改善字节码编译语言性能的技术。在HotSpot实现中有多种选择：C1、C2和C1+C2，分别对应client、server和分层编译。
 
@@ -9,6 +9,4 @@ JIT
 3、C1+C2在开始阶段采用C1编译，当代码运行到一定热度之后采用G2重新编译；
 
 在1.8之前，分层编译默认是关闭的，可以添加-server -XX:+TieredCompilation参数进行开启。
-
-
 
