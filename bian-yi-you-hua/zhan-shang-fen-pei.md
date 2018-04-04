@@ -54,3 +54,5 @@ class User {
 
 分层编译和逃逸分析在1.8中是默认是开启的，例子中fn方法被执行了200w次，按理说应该在Java堆生成200w个User对象
 
+1、通过java -cp . -Xmx3G -Xmn2G -server -XX:-DoEscapeAnalysis JVM运行代码，-XX:-DoEscapeAnalysis关闭逃逸分析，通过jps查看java进程的PID，接着通过jmap -histo \[pid\]查看java堆上的对象分布情况，结果如下：
+
