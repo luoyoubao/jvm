@@ -26,11 +26,6 @@
 -XX:OnStackReplacePercentage = 140
 -XX:InterpreterProfilePercentage = 33
 OSR trigger = (CompileThreshold * (OnStackReplacePercentage - InterpreterProfilePercentage)) / 100 = 10700
-
-作者：占小狼
-链接：https://www.jianshu.com/p/20bd2e9b1f03
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 
