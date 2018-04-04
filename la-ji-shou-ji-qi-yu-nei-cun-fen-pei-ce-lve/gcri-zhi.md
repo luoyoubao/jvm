@@ -11,9 +11,9 @@
 
 #### Minor GC和Full GC区别
 
-![](/assets/201708022217.png)YGC:Minor GC
+![](/assets/201708022217.png)**YGC:Minor GC**
 
-FGC:Full GC
+**FGC:Full GC**
 
 #### 
 
