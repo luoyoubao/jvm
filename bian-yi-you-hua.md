@@ -28,5 +28,5 @@
 OSR trigger = (CompileThreshold * (OnStackReplacePercentage - InterpreterProfilePercentage)) / 100 = 10700
 ```
 
-
+其中trigger即为OSR编译的阈值
 
