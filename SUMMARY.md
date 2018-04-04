@@ -88,6 +88,6 @@
   * [同步消除](bian-yi-you-hua/tong-bu-xiao-chu.md)
   * [标量替换](bian-yi-you-hua/biao-liang-ti-huan.md)
   * [栈上分配](bian-yi-you-hua/zhan-shang-fen-pei.md)
-  * 去虚拟化
+  * [去虚拟化](bian-yi-you-hua/qu-xu-ni-hua.md)
 * [JAVA内存模型](javanei-cun-mo-xing.md)
 
