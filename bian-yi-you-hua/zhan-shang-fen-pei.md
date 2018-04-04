@@ -82,3 +82,5 @@ java -cp . -Xmx3G -Xmn2G -server -XX:-TieredCompilation
 
 ![](/assets/20180404113715001.png)
 
+可以发现：关闭了分层编译之后，在Java堆上分配的User对象降低到1w多个，分层编译对逃逸分析还是有影响的
+
