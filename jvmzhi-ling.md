@@ -1,7 +1,3 @@
-|  |
-| :--- |
-
-
 | invokevirtual | Invoke instance method; dispatch based on class | 执行一般实例方法，创建完实例对象后，obj.method\(\)调用的 |
 | :--- | :--- | :--- |
 | invokespecial | Invoke instance method; special handling for superclass, private, and instance initialization method invocations | 实例初始化方法（构造函数）、父类的方法（super.method\(\)方式调用）、私有方法 |
