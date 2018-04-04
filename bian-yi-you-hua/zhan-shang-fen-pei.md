@@ -2,6 +2,8 @@
 
 故名思议就是在栈上分配对象，其实目前Hotspot并没有实现真正意义上的栈上分配，实际上是标量替换。
 
+栈上分配的好处一方面更加快速，另一方面是方法结束时对象也被回收了
+
 ```
 private static int fn(int age) {
     User user = new User(age);
