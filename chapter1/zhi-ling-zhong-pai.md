@@ -54,3 +54,5 @@ _**参考资料**_
 
 【死磕Java并发--Java内存模型之happens-before】 [http://cmsblogs.com/?p=2102](http://cmsblogs.com/?p=2102)
 
+【JMM Cookbook\(一\)指令重排】http://ifeve.com/jmm-cookbook-reorderings/
+
