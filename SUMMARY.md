@@ -21,7 +21,6 @@
     * [本地内存溢出](chapter1/outofmemoryerror/ben-di-nei-cun-yi-chu.md)
   * [知识点](chapter1/zhi-shi-dian.md)
 * [编译优化](bian-yi-you-hua.md)
-  * [指令重排](chapter1/zhi-ling-zhong-pai.md)
   * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
   * [方法内联](bian-yi-you-hua/fang-fa-nei-lian.md)
   * [逃逸分析](bian-yi-you-hua/tao-yi-fen-xi.md)
@@ -32,6 +31,7 @@
   * [多层编译](bian-yi-you-hua/duo-ceng-bian-yi.md)
 * [内存模型](javanei-cun-mo-xing.md)
   * [JAVA内存模型](javanei-cun-mo-xing/javanei-cun-mo-xing.md)
+  * [指令重排](chapter1/zhi-ling-zhong-pai.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象创建原理](xu-ni-ji-dui-xiang/dui-xiang-chuang-jian-yuan-li.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
@@ -90,4 +90,3 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-
