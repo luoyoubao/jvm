@@ -20,3 +20,11 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 
 * 在写入变量a之前的写入操作，其更新的数据对于其他线程也是可见的。因为Memory Barrier会刷出cache中的所有先前的写入。
 
+
+
+_**参考资料**_
+
+【Java内存模型Cookbook（二）内存屏障】http://ifeve.com/jmm-cookbook-mb/
+
+
+
