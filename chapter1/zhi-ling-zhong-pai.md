@@ -6,3 +6,7 @@
 
 
 
+参考资料
+
+【happens-before俗解】http://ifeve.com/easy-happens-before/
+
