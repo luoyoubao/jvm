@@ -67,11 +67,9 @@ JVM中运行的每个线程都拥有自己的线程栈，线程栈包含了当�
 
 * **内存屏障\(Memory Barrier\)**
 
-
-
-
-
 _**参考资料**_
 
 【全面理解Java内存模型】[https://blog.csdn.net/suifeng3051/article/details/52611310](https://blog.csdn.net/suifeng3051/article/details/52611310)
+
+【深入理解Java内存模型（一）——基础】 http://www.infoq.com/cn/articles/java-memory-model-1
 
