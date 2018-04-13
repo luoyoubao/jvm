@@ -4,6 +4,8 @@
 
 ### JAVA内存模型\(JMM\)
 
+Java内存模型即Java Memory Model，简称JMM
+
 简单的讲，java内存模型指的就是一套规范，现在最新的规范为JSR-133。这套规范包含：
 
 * 线程之间如何通过内存通信
@@ -15,11 +17,7 @@
 
 为了方便线程之间的通信，java 提供了 volatile, synchronized, final 三个关键字供我们使用
 
-
-
-
-
 参考资料
 
-【全面理解Java内存模型】https://blog.csdn.net/suifeng3051/article/details/52611310
+【全面理解Java内存模型】[https://blog.csdn.net/suifeng3051/article/details/52611310](https://blog.csdn.net/suifeng3051/article/details/52611310)
 
