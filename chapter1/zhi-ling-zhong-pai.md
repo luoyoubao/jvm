@@ -24,15 +24,15 @@ Thread独享的start\(\)方法先行于此线程的每一个动作。
 
 线程中的每个操作都先行发生于对此线程的终止检测，我们可以通过Thread.join\(\)方法结束、Thread.isAlive\(\)的返回值检测到线程已经终止执行。
 
-线程中断规则\(Thread Interruption Rule\)
+* **线程中断规则\(Thread Interruption Rule\)**
 
 对线程interrupte\(\)方法的调用优先于被中断线程的代码检测到中断事件的发生，可以通过Thread.interrupted\(\)方法检测线程是否已中断。
 
-对象终结原则\(Finalizer Rule\)
+* **对象终结原则\(Finalizer Rule\)**
 
 一个对象的初始化完成\(构造函数执行结束\)先行发生于它的finalize\(\)方法的开始。
 
-传递性\(Transitivity\)
+* **传递性\(Transitivity\)**
 
 如果操作A先行发生于操作B，操作B先行发生于操作C，那就可以得出操作A先行发生于操作C的结论。
 
