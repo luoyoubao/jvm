@@ -32,7 +32,7 @@
 * [内存模型](javanei-cun-mo-xing.md)
   * [JAVA内存模型](javanei-cun-mo-xing/javanei-cun-mo-xing.md)
   * [指令重排](chapter1/zhi-ling-zhong-pai.md)
-  * 内存屏障
+  * [内存屏障](javanei-cun-mo-xing/nei-cun-ping-zhang.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象创建原理](xu-ni-ji-dui-xiang/dui-xiang-chuang-jian-yuan-li.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
