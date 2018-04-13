@@ -10,7 +10,9 @@
 
 Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个Write-Barrier（写入屏障）将刷出所有在Barrier之前写入 cache 的数据，因此，任何CPU上的线程都能读取到这些数据的最新版本。
 
-这和java有什么关系？上面java内存模型中讲到的volatile是基于Memory Barrier实现的。
+```
+“这和java有什么关系？上面java内存模型中讲到的volatile是基于Memory Barrier实现的”
+```
 
 如果一个变量是volatile修饰的，JMM会在写入这个字段之后插进一个Write-Barrier指令，并在读这个字段之前插入一个Read-Barrier指令。这意味着，如果写入一个volatile变量，就可以保证：
 
