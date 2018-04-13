@@ -4,7 +4,7 @@
 
 ### JAVA内存模型\(JMM\)
 
-Java内存模型即Java Memory Model，简称JMM
+定义：Java内存模型即Java Memory Model，简称JMM；JMM定义了Java虚拟机\(JVM\)在计算机内存\(RAM\)中的工作方式
 
 简单的讲，java内存模型指的就是一套规范，现在最新的规范为JSR-133。这套规范包含：
 
