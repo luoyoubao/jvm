@@ -36,11 +36,9 @@ Thread独享的start\(\)方法先行于此线程的每一个动作。
 
 说明：正是以上这些规则保障了happen-before的顺序，如果不符合以上规则，那么在多线程环境下就不能保证执行顺序等同于代码顺序，也就是“如果在本线程中观察，所有的操作都是有序的；如果在一个线程中观察另外一个线程，则不符合以上规则的都是无序的”，因此，如果我们的多线程程序依赖于代码书写顺序，那么就要考虑是否符合以上规则，如果不符合就要通过一些机制使其符合，最常用的就是synchronized、Lock以及volatile修饰符。
 
-参考资料
+_**参考资料**_
 
-【happens-before俗解】[http://ifeve.com/easy-happens-before/](http://ifeve.com/easy-happens-before/)
+【happens-before俗解】http://ifeve.com/easy-happens-before/
 
-
-
-[【死磕Java并发】—–Java内存模型之happens-before](http://cmsblogs.com/?p=2102)   
+【死磕Java并发--Java内存模型之happens-before】 http://cmsblogs.com/?p=2102
 
