@@ -7,6 +7,8 @@
 * 线程之间如何通过内存通信
 * 线程之间通过什么方式通信才合法，才能得到期望的结果
 
+JSR133为Java语言定义了一个新的内存模型，它修复了早期内存模型中的缺陷
+
 在编译器各种优化及多种类型的微架构平台上，Java语言规范制定者试图创建一个虚拟的概念并传递到Java程序员，让他们能够在这个虚拟的概念上写出线程安全的程序来，而编译器实现者会根据Java语言规范中的各种约束在不同的平台上达到Java程序员所需要的线程安全这个目的
 
 ![](/assets/20180413143521001.png)
@@ -95,7 +97,11 @@ as-if-serial语义把单线程程序保护了起来，遵守as-if-serial语义�
 
 _**参考资料**_
 
+【Java内存模型FAQ（一） 什么是内存模型】  http://ifeve.com/memory-model
+
 【全面理解Java内存模型】[https://blog.csdn.net/suifeng3051/article/details/52611310](https://blog.csdn.net/suifeng3051/article/details/52611310)
 
 【深入理解Java内存模型（一）——基础】 [http://www.infoq.com/cn/articles/java-memory-model-1](http://www.infoq.com/cn/articles/java-memory-model-1)
+
+【Java内存模型FAQ】 http://ifeve.com/jmm-faq/
 
