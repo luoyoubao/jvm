@@ -61,9 +61,42 @@ JVM中运行的每个线程都拥有自己的线程栈，线程栈包含了当�
 
 如果两个操作访问同一个变量，其中一个为写操作，此时这两个操作之间存在数据依赖性。 编译器和处理器不会改变存在数据依赖性关系的两个操作的执行顺序，即不会重排序。
 
+| 名称 |
+| :--- |
+
+
+|  | 代码示例 | 说明 |
+| :--- | :--- | :--- |
+| 写后读 | a = 1;b = a; | 写一个变量之后，再读这个位置。 |
+| 写后写 | a = 1;a = 2; | 写一个变量之后，再写这个变量。 |
+| 读后写 | a = b;b = 1; | 读一个变量之后，再写这个变量。 |
+
 * **as-if-serial**
 
 不管怎么重排序，单线程下的执行结果不能被改变，编译器、runtime和处理器都必须遵守as-if-serial语义
+
+```
+double pi  = 3.14;    //A  
+double r   = 1.0;     //B  
+double area = pi * r * r; //C  
+```
+
+```
+上面三个操作的数据依赖关系如下图所示：
+```
+
+![](http://img.my.csdn.net/uploads/201302/06/1360143739_6151.png)
+
+
+
+如上图所示，A和C之间存在数据依赖关系，同时B和C之间也存在数据依赖关系。因此在最终执行的指令序列中，C不能被重排序到A和B的前面（C排到A和B的前面，程序的结果将会被改变）。但A和B之间没有数据依赖关系，编译器和处理器可以重排序A和B之间的执行顺序。下图是该程序的两种执行顺序：
+
+![](http://img.my.csdn.net/uploads/201302/06/1360143751_3794.png)  
+
+
+as-if-serial语义把单线程程序保护了起来，遵守as-if-serial语义的编译器，runtime 和处理器共同为编写单线程程序的程序员创建了一个幻觉：单线程程序是按程序的顺序来执行的。**as-if-serial语义使单线程程序员无需担心重排序会干扰他们，也无需担心内存可见性问题**。
+
+
 
 * **内存屏障\(Memory Barrier\)**
 
@@ -71,5 +104,5 @@ _**参考资料**_
 
 【全面理解Java内存模型】[https://blog.csdn.net/suifeng3051/article/details/52611310](https://blog.csdn.net/suifeng3051/article/details/52611310)
 
-【深入理解Java内存模型（一）——基础】 http://www.infoq.com/cn/articles/java-memory-model-1
+【深入理解Java内存模型（一）——基础】 [http://www.infoq.com/cn/articles/java-memory-model-1](http://www.infoq.com/cn/articles/java-memory-model-1)
 
