@@ -25,6 +25,8 @@
 
 * MinHeapFreeRatio: GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\), 则放大堆内存的预估最大值
 
+* SurvivorRatio: Eden/Survivor的值。8表示Survivor:Eden=1:8,因为survivor区有2个, 所以Eden的占比为8/10
+
 _注意：java8去掉了-XX:PermSize和-XX:MaxPermSize，新增了-XX:MetaspaceSize和-XX:MaxMetaspaceSize_
 
 虚拟机会根据堆的空闲情况动态调整推大小，空余大于 70%，会减少到 -Xms，空余小于 40%，会增大到 -Xmx；服务器如果配置 -Xms = -Xmx，则可以避免堆自动扩展；
