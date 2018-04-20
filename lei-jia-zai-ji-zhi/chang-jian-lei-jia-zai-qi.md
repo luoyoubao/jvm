@@ -14,9 +14,9 @@
 
 ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载JAVA\_HOME/lib/ext目录下的类
 
-#### AppClassLoader
+#### SystemClassLoader
 
-ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载ClassPath目录中的所有类型
+SystemClassLoader派生于ClassLoader\(Java语言编写\)，负责加载ClassPath目录中的所有类型
 
 ```
 package com.quancheng.jvm;
