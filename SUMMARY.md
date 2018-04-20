@@ -11,7 +11,7 @@
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
   * [JVM Stacks && Native Stacks](chapter1/jvm-stacks-andand-native-stacks.md)
   * [堆-Heap](chapter1/dui.md)
-  * [方法区](chapter1/fang-fa-qu.md)
+  * [方法区\(Method Area\)](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
     * [常量传播优化](chapter1/fang-fa-qu/chang-liang-chuan-bo-you-hua.md)
   * [直接内存](chapter1/zhi-jie-nei-cun.md)
