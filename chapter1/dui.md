@@ -7,6 +7,7 @@
 所有的对象实例以及数组都要在堆上分配
 
 #### 特性
+
 * 线程共享
 * 内存最大的一块
 * 目的：存放对象实例和数组，但随着JIT的发展和逃逸分析技术成熟，栈上分配、标量替换，对象实例开始不一定分配在堆上
@@ -20,9 +21,14 @@
 * 逃逸分析
 * 栈上分配
 * JAVA Heap将不再是JAVA对象内存分配的唯一选择
-* Survivor Space通常又称为S0和S1，或者From和To
 
 #### JAVA Heap分代
 
 ![](/assets/201708040028.png)
+
+* 新生代\(Young Generation\)
+* 老生代\(Old Generation\)：Tenured
+* Survivor Space通常又称为S0和S1，或者From和To
+
+
 
