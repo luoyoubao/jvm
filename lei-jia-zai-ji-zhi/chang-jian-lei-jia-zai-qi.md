@@ -38,9 +38,9 @@ System.out.println(System.getProperty("sun.boot.class.path"));
 
 ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载JAVA\_HOME/lib/ext目录下的类
 
-#### SystemClassLoader
+#### AppClassLoader
 
-SystemClassLoader系统类加载器派生于ClassLoader\(Java语言编写\)，用于加载当前应用classpath下的所有类，也被称作AppClassLoader
+AppClassLoader系统类加载器派生于ClassLoader\(Java语言编写\)，用于加载当前应用classpath下的所有类，也被称作AppClassLoader
 
 ```
 package com.quancheng.jvm;
