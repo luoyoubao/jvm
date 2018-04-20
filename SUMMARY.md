@@ -79,6 +79,7 @@
   * [ServiceLoader](lei-jia-zai-ji-zhi/serviceloader.md)
 * [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
+  * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
 * [JVM实用参数](jvmshi-yong-can-shu.md)
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [jmap](fu-lu/jmap.md)
