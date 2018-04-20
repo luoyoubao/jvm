@@ -14,7 +14,8 @@
 
 #### 注意
 
-* JDK1.7的HotSpot已经把放在永久代的字符串常量池移出 JDK1.8已将PermGen从Heap中移除
+* JDK1.7的HotSpot已经把放在永久代的字符串常量池移出 
+* JDK1.8已将PermGen从Heap中移除
 
 #### 知识点
 
