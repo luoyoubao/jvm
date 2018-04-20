@@ -3,6 +3,7 @@
 * Bootstrap ClassLoader
 * ExtClassLoader
 * AppClassLoader
+* 自定义类加载器\(User Defined Classloader\)
 
 #### Bootstrap ClassLoader
 
