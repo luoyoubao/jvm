@@ -8,6 +8,8 @@
 
 说明：在JDK 1.4 中新加入了NIO（New Input/Output）类，引入了一种基于通道（Channel）与缓冲区（Buffer）的I/O 方式，它可以使用Native 函数库直接分配堆外内存，然后通过一个存储在Java 堆里面的DirectByteBuffer 对象作为这块内存的引用进行操作。这样能在一些场景中显著提高性能，因为避免了在Java 堆和Native 堆中来回复制数据。
 
+_**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer引用堆外内存**_
+
 ### 直接内存（堆外内存）与堆内存比较
 
 * 直接内存申请空间耗费更高的性能，当频繁申请到一定量时尤为明显；
