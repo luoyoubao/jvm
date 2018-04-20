@@ -2,6 +2,22 @@
 
 jstat:一个极强的监视VM内存工具。可以用来监视VM内存内的各种堆和非堆的大小及其内存使用量
 
+* jstat -class pid:显示加载class的数量，及所占空间等信息。
+* jstat -compiler pid:显示VM实时编译的数量等信息。
+* jstat -gc pid:可以显示gc的信息，查看gc的次数，及时间。
+* jstat -gcnew pid: new对象的信息。
+* jstat -gcnewcapacity pid: new对象的信息及其占用量。
+* jstat -gcold pid: old对象的信息。
+* jstat -gcoldcapacity pid: old对象的信息及其占用量。
+* jstat -gcpermcapacity pid: perm对象的信息及其占用量。
+* jstat -util pid:统计gc信息统计。
+* jstat -printcompilation pid:当前VM执行的信息。
+* jstat -gcutil pid 1000 10 : 1000ms统计一次gc情况统计10次；
+
+
+
+
+
 查看内存使用情况：
 
 ```
