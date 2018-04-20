@@ -18,5 +18,7 @@ _**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer
 
 ### 堆外内存
 
+* -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
+
 ![](/assets/201708022310.png)
 
