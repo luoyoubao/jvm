@@ -10,6 +10,19 @@
 * 称为启动类加载器，主要是用于加载JDK核心类，包括JRE\_HOME\lib下的**rt.jar、resources.jar、charsets.jar**等，或者由"-Xbootclasspath"指定路径中的所有类型
 * 启动类加载器由C++编写并嵌在JVM内部，加载器名称为Null
 
+可通过如下程序获得该类加载器从哪些地方加载了相关的jar或class文件：
+
+```
+URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
+for (int i = 0; i < urls.length; i++) {
+    System.out.println(urls[i].toExternalForm());
+}
+```
+
+
+
+
+
 #### ExtClassLoader
 
 ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载JAVA\_HOME/lib/ext目录下的类
