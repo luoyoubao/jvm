@@ -20,6 +20,7 @@
 * -XX:MaxPermSize设置永久代最大空间大小
 * -Xss设置每个线程的堆栈大小
 * XX:MetaspaceSize：class metadata的初始空间配额，以bytes为单位，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整
+* XX:MaxMetaspaceSize：可以为class metadata分配的最大空间。默认是没有限制的
 
 虚拟机会根据堆的空闲情况动态调整推大小，空余大于 70%，会减少到 -Xms，空余小于 40%，会增大到 -Xmx；服务器如果配置 -Xms = -Xmx，则可以避免堆自动扩展；
 
