@@ -7,7 +7,7 @@
 
 #### Bootstrap ClassLoader
 
-* 称为启动类加载器，主要是用于加载JDK核心类，包括JRE\_HOME\lib下的rt.jar等，或者由"-Xbootclasspath"指定路径中的所有类型
+* 称为启动类加载器，主要是用于加载JDK核心类，包括JRE\_HOME\lib下的**rt.jar、resources.jar、charsets.jar**等，或者由"-Xbootclasspath"指定路径中的所有类型
 * 启动类加载器由C++编写并嵌在JVM内部，加载器名称为Null
 
 #### ExtClassLoader
