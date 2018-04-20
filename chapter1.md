@@ -12,17 +12,13 @@
 
 **控制参数**
 
--Xms设置堆的最小空间大小
+* -Xms设置堆的最小空间大小
+* -Xmx设置堆的最大空间大小
+* -XX:NewSize设置新生代最小空间大小
+* -XX:MaxNewSize设置新生代最大空间大小
+* -XX:PermSize设置永久代最小空间大小
+* -XX:MaxPermSize设置永久代最大空间大小
+* -Xss设置每个线程的堆栈大小
 
--Xmx设置堆的最大空间大小
 
--XX:NewSize设置新生代最小空间大小
-
--XX:MaxNewSize设置新生代最大空间大小
-
--XX:PermSize设置永久代最小空间大小
-
--XX:MaxPermSize设置永久代最大空间大小
-
--Xss设置每个线程的堆栈大小
 
