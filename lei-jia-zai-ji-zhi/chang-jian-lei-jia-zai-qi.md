@@ -34,6 +34,10 @@ public class Appliction {
         System.err.println(app.getClass().getName());
     }
 }
+output==>
+null
+sun.misc.Launcher$ExtClassLoader@eed1f14
+sun.misc.Launcher$AppClassLoader
 ```
 
 
