@@ -28,6 +28,12 @@ file:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr
 file:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
 ```
 
+其实上述结果也是通过查找**sun.boot.class.path**这个系统属性所得知的。
+
+```
+System.out.println(System.getProperty("sun.boot.class.path"));
+```
+
 #### ExtClassLoader
 
 ExtClassLoader派生于ClassLoader\(Java语言编写\)，负责加载JAVA\_HOME/lib/ext目录下的类
