@@ -70,10 +70,10 @@
   * [方法集合](lei-wen-jian-jie-gou/fang-fa-xin-xi-qu.md)
   * [属性集合](lei-wen-jian-jie-gou/shu-xing-xin-xi-qu.md)
 * [类加载机制](lei-jia-zai-ji-zhi.md)
-  * [类加载过程](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
   * [抽象类ClassLoader](lei-jia-zai-ji-zhi/chou-xiang-lei-classloader.md)
   * [常见类加载器](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi.md)
     * [BootstrapClassLoader](lei-jia-zai-ji-zhi/chang-jian-lei-jia-zai-qi/bootstrapclassloader.md)
+  * [类加载过程](lei-jia-zai-ji-zhi/lei-jia-zai-shi-ji.md)
   * [双亲委派模型](lei-jia-zai-ji-zhi/shuang-qin-wei-pai-mo-xing.md)
   * [Tomcat类加载机制](lei-jia-zai-ji-zhi/tomcatlei-jia-zai-ji-zhi.md)
   * [ServiceLoader](lei-jia-zai-ji-zhi/serviceloader.md)
@@ -91,4 +91,3 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-
