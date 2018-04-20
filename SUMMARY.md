@@ -9,12 +9,12 @@
     * [局部变量表](chapter1/javaxu-ni-ji-zhan/ju-bu-bian-liang-biao.md)
     * [操作数栈](chapter1/ben-di-fang-fa-zhan/cao-zuo-shu-zhan.md)
   * [本地方法栈](chapter1/ben-di-fang-fa-zhan.md)
-  * [JVM Stacks && Native Stacks](chapter1/jvm-stacks-andand-native-stacks.md)
   * [堆-Heap](chapter1/dui.md)
   * [方法区\(Method Area\)](chapter1/fang-fa-qu.md)
     * [运行时常量池](chapter1/fang-fa-qu/yun-xing-shi-chang-liang-chi.md)
     * [常量传播优化](chapter1/fang-fa-qu/chang-liang-chuan-bo-you-hua.md)
   * [直接内存](chapter1/zhi-jie-nei-cun.md)
+  * [JVM Stacks && Native Stacks](chapter1/jvm-stacks-andand-native-stacks.md)
   * [StackOverflowError](chapter1/dui-zhan-yi-chu.md)
     * [递归方法](chapter1/dui-zhan-yi-chu/stackoverflowerror.md)
   * [OutOfMemoryError](chapter1/outofmemoryerror.md)
@@ -91,4 +91,3 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-
