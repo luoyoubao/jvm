@@ -22,7 +22,8 @@
 * XX:MetaspaceSize：class metadata的初始空间配额，以bytes为单位，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整
 * XX:MaxMetaspaceSize：可以为class metadata分配的最大空间。默认是没有限制的
 * MaxHeapFreeRatio: GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\)，则收缩堆内存的预估最大值, 预估堆内存是堆大小动态调控的重要选项之一. 堆内存预估最大值一定小于或等于固定最大值\(-Xmx指定的数值\). 前者会根据使用情况动态调大或缩小, 以提高GC回收的效率
-  * * MinHeapFreeRatio: GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\), 则放大堆内存的预估最大值
+
+* MinHeapFreeRatio: GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\), 则放大堆内存的预估最大值
 
 _注意：java8去掉了-XX:PermSize和-XX:MaxPermSize，新增了-XX:MetaspaceSize和-XX:MaxMetaspaceSize_
 
