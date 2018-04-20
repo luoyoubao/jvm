@@ -77,7 +77,7 @@
   * [双亲委派模型](lei-jia-zai-ji-zhi/shuang-qin-wei-pai-mo-xing.md)
   * [Tomcat类加载机制](lei-jia-zai-ji-zhi/tomcatlei-jia-zai-ji-zhi.md)
   * [ServiceLoader](lei-jia-zai-ji-zhi/serviceloader.md)
-* [虚拟机性能监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
+* [虚拟机性能调优监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
 * [JVM实用参数](jvmshi-yong-can-shu.md)
@@ -92,4 +92,3 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-
