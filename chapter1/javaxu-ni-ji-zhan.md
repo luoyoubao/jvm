@@ -12,7 +12,7 @@
 
 #### 存储内容
 
-* 局部变量表：以变量槽\(Slot\)为单位，存有this引用，方法参数，定义的局部变量；字节码指令使用从0开始索引来使用其中的数据，而0Slot 都默认为当前方法所属的实例的引用，即this；分配多大的局部变量空间在编译期间已经确定；int，float，reference，returnAddress占一个Slot；byte，short，char会被转成int；long，double占两个连续Slot
+* 局部变量表\(Local Variables\)：以变量槽\(Slot\)为单位，存有this引用，方法参数，定义的局部变量；字节码指令使用从0开始索引来使用其中的数据，而0Slot 都默认为当前方法所属的实例的引用，即this；分配多大的局部变量空间在编译期间已经确定；int，float，reference，returnAddress占一个Slot；byte，short，char会被转成int；long，double占两个连续Slot
 * 动态链接\(Dynamic Linking\)：指向运行时常量池中栈帧所属方法的引用，用来支持方法调用中的动态连接。常量池的方法的符号引用，一部分在类加载的时候转化为直接引用，被称为静态解析。而动态连接指的是在每一次运行期间转化为直接引用
 * 操作数栈：以变量槽\(Slot为单位\)字节码指令从操作数栈弹出数据，执行计算，再把结果入操作数栈，操作数栈的深度在编译期已经决定，在方法的 Code 属性的 max\_stacks 数据项中
 * 方法出口\(方法返回地址：Return Address\)：返回地址（Return Address），正常返回时PC计数器的值作为返回地址保存；异常返回时通过异常处理表获得返回地址，栈帧一般不会保存这部分信息
