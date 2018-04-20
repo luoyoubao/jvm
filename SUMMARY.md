@@ -82,7 +82,6 @@
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
 * [JVM实用参数](jvmshi-yong-can-shu.md)
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
-  * [jmap](fu-lu/jmap.md)
 * [JVM指令](jvmzhi-ling.md)
 * [附录](fu-lu.md)
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
