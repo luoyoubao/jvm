@@ -1,6 +1,7 @@
 ### 编译器对字符串的优化
 
 * String通过"+"拼接时如果拼接的对象是常量，则在编译期被合并优化；
+
   ```
   String st = "a" + "b" + "c"; // 或者final String s = "a";编译器认为它是不可变的常量会自动合并优化
   javap out==============>
@@ -12,6 +13,13 @@
   ```
 
 * Stirng通过"+"拼接的对象是变量，则编译器通过StringBuilder进行append
+
+```
+public static void main(String[] args){
+    String name = "luoyobao";
+    String sb = name + "hello";
+}
+```
 
 
 
