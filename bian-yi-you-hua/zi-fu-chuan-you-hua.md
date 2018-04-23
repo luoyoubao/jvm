@@ -19,6 +19,35 @@ public static void main(String[] args){
     String name = "luoyobao";
     String sb = name + "hello";
 }
+
+javap -v AppTest.class==>
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=3, args_size=1
+         0: ldc           #2                  // String luoyobao
+         2: astore_1
+         3: new           #3                  // class java/lang/StringBuilder
+         6: dup
+         7: invokespecial #4                  // Method java/lang/StringBuilder."<init>":()V
+        10: aload_1
+        11: invokevirtual #5                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        14: ldc           #6                  // String hello
+        16: invokevirtual #5                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        19: invokevirtual #7                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        22: astore_2
+        23: return
+      LineNumberTable:
+        line 5: 0
+        line 6: 3
+        line 7: 23
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      24     0  args   [Ljava/lang/String;
+            3      21     1  name   Ljava/lang/String;
+           23       1     2    sb   Ljava/lang/String;
+
 ```
 
 
