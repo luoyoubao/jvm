@@ -12,7 +12,7 @@
 | -XX:MaxPermSize | 永久代\(方法区\)的最大值 |
 | -XX:+PrintGCDetails | 打印 GC 信息 |
 | -XX:+HeapDumpOnOutOfMemoryError | 让虚拟机在发生内存溢出时 Dump 出当前的内存堆转储快照，以便分析用 |
-| -XX:NewSize | 设置新生代最小空间大小 |
+| -XX:NewSize=\[g\|m\|k\] | 设置新生代最小空间大小 |
 | -XX:MaxNewSize | 设置新生代最大空间大小 |
 | -XX:MetaspaceSize | class metadata的初始空间配额，以bytes为单位，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整 |
 | XX:MaxMetaspaceSize | 可以为class metadata分配的最大空间。默认是没有限制的 |
