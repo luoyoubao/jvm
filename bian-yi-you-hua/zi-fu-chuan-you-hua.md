@@ -11,5 +11,7 @@
   3: return
   ```
 
+* Stirng通过"+"拼接的对象是变量，则编译器通过StringBuilder进行append
+
 
 
