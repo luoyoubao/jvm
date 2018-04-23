@@ -31,7 +31,7 @@ _注意：java8去掉了-XX:PermSize和-XX:MaxPermSize，新增了-XX:MetaspaceS
 
 虚拟机会根据堆的空闲情况动态调整推大小，空余大于 70%，会减少到 -Xms，空余小于 40%，会增大到 -Xmx；服务器如果配置 -Xms = -Xmx，则可以避免堆自动扩展；
 
-minorGC：只针对新生代区域的GC。 
+minorGC\(Yong GC\)：只针对新生代区域的GC。
 
 majorGC\(Full GC\)：针对所有分代区域（新生代、年老代）的GC
 
