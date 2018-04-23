@@ -29,6 +29,7 @@
   * [栈上分配](bian-yi-you-hua/zhan-shang-fen-pei.md)
   * [去虚拟化](bian-yi-you-hua/qu-xu-ni-hua.md)
   * [多层编译](bian-yi-you-hua/duo-ceng-bian-yi.md)
+  * JVM编译策略
 * [内存模型](javanei-cun-mo-xing.md)
   * [JAVA内存模型](javanei-cun-mo-xing/javanei-cun-mo-xing.md)
   * [指令重排](chapter1/zhi-ling-zhong-pai.md)
@@ -91,3 +92,4 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
+
