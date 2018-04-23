@@ -22,5 +22,5 @@
 1. 初始标记(CMS initial mark)
 2. 并发标记(CMS concurrent mark)
 3. 重新标记(CMS remark)
-4. 并发清除(CMS concurrent sweep)<br>
+4. 并发清除(CMS concurrent sweep)
 **说明：**初始标记、重新标记仍然需要Stop The World
