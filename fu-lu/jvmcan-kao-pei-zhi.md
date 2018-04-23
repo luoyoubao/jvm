@@ -12,14 +12,16 @@
 | -XX:MaxPermSize | 永久代\(方法区\)的最大值 |
 | -XX:+PrintGCDetails | 打印 GC 信息 |
 | -XX:+HeapDumpOnOutOfMemoryError | 让虚拟机在发生内存溢出时 Dump 出当前的内存堆转储快照，以便分析用 |
-|-XX:NewSize|设置新生代最小空间大小|
-|-XX:MaxNewSize|设置新生代最大空间大小|
-|-XX:MetaspaceSize|class metadata的初始空间配额，以bytes为单位，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整|
-|XX:MaxMetaspaceSize|可以为class metadata分配的最大空间。默认是没有限制的|
-|MinHeapFreeRatio|GC后如果发现空闲堆内存占到整个预估堆内存的N%(百分比), 则放大堆内存的预估最大值|
-|MaxHeapFreeRatio|GC后如果发现空闲堆内存占到整个预估堆内存的N%(百分比)，则收缩堆内存的预估最大值, 预估堆内存是堆大小动态调控的重要选项之一. 堆内存预估最大值一定小于或等于固定最大值(-Xmx指定的数值). 前者会根据使用情况动态调大或缩小, 以提高GC回收的效率|
+| -XX:NewSize | 设置新生代最小空间大小 |
+| -XX:MaxNewSize | 设置新生代最大空间大小 |
+| -XX:MetaspaceSize | class metadata的初始空间配额，以bytes为单位，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整 |
+| XX:MaxMetaspaceSize | 可以为class metadata分配的最大空间。默认是没有限制的 |
+| MinHeapFreeRatio | GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\), 则放大堆内存的预估最大值 |
+| MaxHeapFreeRatio | GC后如果发现空闲堆内存占到整个预估堆内存的N%\(百分比\)，则收缩堆内存的预估最大值, 预估堆内存是堆大小动态调控的重要选项之一. 堆内存预估最大值一定小于或等于固定最大值\(-Xmx指定的数值\). 前者会根据使用情况动态调大或缩小, 以提高GC回收的效率 |
 
-### 
+_注意：java8去掉了-XX:PermSize和-XX:MaxPermSize，新增了-XX:MetaspaceSize和-XX:MaxMetaspaceSize_
+
+虚拟机会根据堆的空闲情况动态调整推大小，空余大于 70%，会减少到 -Xms，空余小于 40%，会增大到 -Xmx；服务器如果配置 -Xms = -Xmx，则可以避免堆自动扩展；
 
 ### 参考配置\(QC\)
 
