@@ -30,6 +30,7 @@
   * [去虚拟化](bian-yi-you-hua/qu-xu-ni-hua.md)
   * [多层编译](bian-yi-you-hua/duo-ceng-bian-yi.md)
   * [JVM编译策略](bian-yi-you-hua/jvmbian-yi-ce-lve.md)
+  * [OSR编译](bian-yi-you-hua/osrbian-yi.md)
 * [内存模型](javanei-cun-mo-xing.md)
   * [JAVA内存模型](javanei-cun-mo-xing/javanei-cun-mo-xing.md)
   * [指令重排](chapter1/zhi-ling-zhong-pai.md)
