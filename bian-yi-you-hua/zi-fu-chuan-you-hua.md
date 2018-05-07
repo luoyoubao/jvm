@@ -47,7 +47,6 @@ javap -v AppTest.class==>
             0      24     0  args   [Ljava/lang/String;
             3      21     1  name   Ljava/lang/String;
            23       1     2    sb   Ljava/lang/String;
-
 ```
 
 
