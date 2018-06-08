@@ -4,7 +4,7 @@
 
 * 保证特定操作的执行顺序。
 
-* 影响某些数据（或则是某条指令的执行结果）的内存可见性。
+* 影响某些数据（或是某条指令的执行结果）的内存可见性。
 
 编译器和CPU能够重排序指令，保证最终相同的结果，尝试优化性能。插入一条Memory Barrier会告诉编译器和CPU：不管什么指令都不能和这条Memory Barrier指令重排序。
 
@@ -20,11 +20,7 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 
 * 在写入变量a之前的写入操作，其更新的数据对于其他线程也是可见的。因为Memory Barrier会刷出cache中的所有先前的写入。
 
-
-
 _**参考资料**_
 
-【Java内存模型Cookbook（二）内存屏障】http://ifeve.com/jmm-cookbook-mb/
-
-
+【Java内存模型Cookbook（二）内存屏障】[http://ifeve.com/jmm-cookbook-mb/](http://ifeve.com/jmm-cookbook-mb/)
 
