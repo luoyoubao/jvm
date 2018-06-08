@@ -4,7 +4,7 @@
 
 1. C1编译速度快，优化方式比较保守；
 2. C2编译速度慢，优化方式比较激进；
-3. C1+C2在开始阶段采用C1编译，当代码运行到一定热度之后采用G2重新编译；
+3. C1+C2在开始阶段采用C1编译，当代码运行到一定热度之后采用C2重新编译；
 
 在1.8之前，分层编译默认是关闭的，可以添加-server -XX:+TieredCompilation参数进行开启；
 
@@ -30,9 +30,7 @@ OSR trigger = (CompileThreshold * (OnStackReplacePercentage - InterpreterProfile
 
 其中trigger即为OSR编译的阈值
 
-
-
 参考资料
 
-https://www.jianshu.com/p/20bd2e9b1f03
+[https://www.jianshu.com/p/20bd2e9b1f03](https://www.jianshu.com/p/20bd2e9b1f03)
 
