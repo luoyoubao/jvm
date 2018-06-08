@@ -34,3 +34,5 @@ OSR trigger = (CompileThreshold * (OnStackReplacePercentage - InterpreterProfile
 
 [https://www.jianshu.com/p/20bd2e9b1f03](https://www.jianshu.com/p/20bd2e9b1f03)
 
+http://www.infoq.com/cn/articles/OpenJDK-HotSpot-What-the-JIT
+
