@@ -19,5 +19,9 @@ G1 GC，全称Garbage-First Garbage Collector，通过-XX:+UseG1GC参数来启�
 * 最终标记：Final Marking
 * 筛选回收：Live Data Counting And Evacuation
 
+【参考资料】
+
+https://tech.meituan.com/g1.html
+
 
 
