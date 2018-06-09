@@ -1,6 +1,6 @@
 ### G1\(Garbage First\)
 
-**G1\(Garbage First\)**是当今收集器技术发展的最前沿成果之一
+G1 GC，全称Garbage-First Garbage Collector，通过-XX:+UseG1GC参数来启用，作为体验版随着JDK 6u14版本面世，在JDK 7u4版本发行时被正式推出，相信熟悉JVM的同学们都不会对它感到陌生。在JDK 9中，G1被提议设置为默认垃圾收集器（JEP 248）
 
 #### 特性
 
