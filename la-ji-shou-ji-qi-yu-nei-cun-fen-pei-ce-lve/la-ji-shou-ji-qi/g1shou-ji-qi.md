@@ -21,7 +21,5 @@ G1 GC，全称Garbage-First Garbage Collector，通过-XX:+UseG1GC参数来启�
 
 【参考资料】
 
-https://tech.meituan.com/g1.html
-
-
+[https://tech.meituan.com/g1.html](https://tech.meituan.com/g1.html)    \#\#美团--Java Hotspot G1 GC的一些关键技术
 
