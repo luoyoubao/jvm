@@ -52,10 +52,6 @@ Thread独享的start\(\)方法先行于此线程的每一个动作。
 
 As-if-serial语义的意思是，所有的动作\(Action\)5都可以为了优化而被重排序，但是必须保证它们重排序后的结果和程序代码本身的应有结果是一致的。Java编译器、运行时和处理器都会保证单线程下的as-if-serial语义
 
-
-
-
-
 _**参考资料**_
 
 【happens-before俗解】[http://ifeve.com/easy-happens-before/](http://ifeve.com/easy-happens-before/)
@@ -63,4 +59,6 @@ _**参考资料**_
 【死磕Java并发--Java内存模型之happens-before】 [http://cmsblogs.com/?p=2102](http://cmsblogs.com/?p=2102)
 
 【JMM Cookbook\(一\)指令重排】[http://ifeve.com/jmm-cookbook-reorderings/](http://ifeve.com/jmm-cookbook-reorderings/)
+
+【美团公众号】https://tech.meituan.com/java-memory-reordering.html
 
