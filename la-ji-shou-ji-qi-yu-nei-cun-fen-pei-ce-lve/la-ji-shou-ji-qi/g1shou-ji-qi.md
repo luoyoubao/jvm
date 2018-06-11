@@ -10,10 +10,6 @@ G1是一种服务器端的垃圾收集器，应用在多处理器和大容量内
 * 不希望牺牲大量的吞吐性能
 * 不需要更大的Java Heap
 
-
-
-
-
 #### 特性
 
 * 面向服务端应用的垃圾收集器
@@ -33,5 +29,5 @@ G1是一种服务器端的垃圾收集器，应用在多处理器和大容量内
 
 【参考资料】
 
-[https://tech.meituan.com/g1.html](https://tech.meituan.com/g1.html)    \#\#美团--Java Hotspot G1 GC的一些关键技术
+【美团--Java Hotspot G1 GC的一些关键技术】-- [https://tech.meituan.com/g1.html](#)
 
