@@ -65,6 +65,7 @@
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
   * [GC策略的评价指标](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcce-lve-de-ping-jia-zhi-biao.md)
   * [jvm card table数据结构](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/jvm-card-tableshu-ju-jie-gou.md)
+  * JVM GC工作原理
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [魔数](lei-wen-jian-jie-gou/mo-shu.md)
   * [版本号](lei-wen-jian-jie-gou/ban-ben-hao.md)
