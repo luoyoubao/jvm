@@ -10,7 +10,6 @@
 
 特性：
 
-出现Full GC的时候经常伴随至少一次的Minor GC,但非绝对的；
-
-Major GC的速度一般会比Minor GC慢10倍以上；
+* 出现Full GC的时候经常伴随至少一次的Minor GC,但非绝对的；
+* Major GC的速度一般会比Minor GC慢10倍以上；
 
