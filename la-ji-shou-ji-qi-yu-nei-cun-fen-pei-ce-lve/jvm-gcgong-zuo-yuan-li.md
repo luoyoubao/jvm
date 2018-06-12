@@ -25,3 +25,15 @@ JVM规范中运行时数据区域中的方法区，在HotSpot虚拟机中又被�
 
 为避免Perm Gen占满造成Full GC现象，可采用的方法为增大Perm Gen空间或转为使用CMS GC
 
+## CMS GC时出现promotion failed和concurrent mode failure
+
+对于采用CMS进行老年代GC的程序而言，尤其要注意GC日志中是否有promotion failed和concurrent mode failure两种状况，当这两种状况出现时可能会触发Full GC。
+
+* promotion failed是在进行Minor GC时，survivor space放不下、对象只能放入老年代，而此时老年代也放不下造成的；
+
+* concurrent mode failure是在执行CMS GC的过程中同时有对象要放入老年代，而此时老年代空间不足造成的（有时候“空间不足”是CMS GC时当前的浮动垃圾过多导致暂时性的空间不足触发Full GC）。
+
+对措施为：增大survivor space、老年代空间或调低触发并发GC的比率
+
+
+
