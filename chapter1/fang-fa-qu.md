@@ -9,15 +9,15 @@
 #### 数据对象
 
 * 已加载类信息
-    * 该类型的全限定名如java.io.FileOutputStream
-    * 该类型的直接超类的全限定名如java.io.OutputStream
-    * 该类型是类类型还是接口类型
-    * 该类型的访问修饰符(public、abstract、final)
-    * 任何直接超接口的全限定名的有序列表如java.io.Closeable, java.io.Flushable
-    * 指向Class类的引用
+  * 该类型的全限定名如java.io.FileOutputStream
+  * 该类型的直接超类的全限定名如java.io.OutputStream
+  * 该类型是类类型还是接口类型
+  * 该类型的访问修饰符\(public、abstract、final\)
+  * 任何直接超接口的全限定名的有序列表如java.io.Closeable, java.io.Flushable
+  * 指向Class类的引用
 * 字段和方法数据
-    * 字段信息：对类型中声明的每个字段
-    * 方法信息
+  * 字段信息：对类型中声明的每个字段
+  * 方法信息
 * 构造函数和普通方法的字节码内容
 * 接口初始化时需要用到的特殊方法
 * 运行时常量池：类和接口的全限定名、字段的名称和描述符、基本数据类型的直接数值（final）等
@@ -30,6 +30,7 @@
 
 * JDK1.7的HotSpot已经把放在永久代的字符串常量池移出 
 * JDK1.8已将PermGen从Heap中移除
+* 特别说明：java类中所有public和protected的实例方法都采用动态绑定机制，所有私有方法、静态方法、构造器及初始化方法&lt;clinit&gt;都是采用静态绑定机制。而使用动态绑定机制的时候会用到方法表，静态绑定时并不会用到
 
 #### 知识点
 
