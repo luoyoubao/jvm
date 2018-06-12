@@ -33,7 +33,5 @@ JVM规范中运行时数据区域中的方法区，在HotSpot虚拟机中又被�
 
 * concurrent mode failure是在执行CMS GC的过程中同时有对象要放入老年代，而此时老年代空间不足造成的（有时候“空间不足”是CMS GC时当前的浮动垃圾过多导致暂时性的空间不足触发Full GC）。
 
-对措施为：增大survivor space、老年代空间或调低触发并发GC的比率
-
-
+应对措施：增大survivor space、老年代空间或调低触发并发GC的比率
 
