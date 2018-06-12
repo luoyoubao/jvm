@@ -13,3 +13,15 @@
 * 出现Full GC的时候经常伴随至少一次的Minor GC,但非绝对的；
 * Major GC的速度一般会比Minor GC慢10倍以上；
 
+
+
+老年代内存溢出
+
+老年代空间只有在新生代对象转入及创建为大对象、大数组时才会出现不足的现象，当执行Full GC后空间仍然不足，则抛出如下错误：java.lang.OutOfMemoryError: Java heap space 
+
+为避免以上两种状况引起的Full GC，调优时应尽量做到让对象在Minor GC阶段被回收、让对象在新生代多存活一段时间及不要创建过大的对象及数组
+
+
+
+
+
