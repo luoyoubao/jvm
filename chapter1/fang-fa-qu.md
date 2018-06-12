@@ -13,7 +13,7 @@
     * 该类型的直接超类的全限定名如java.io.OutputStream
     * 该类型是类类型还是接口类型
     * 该类型的访问修饰符(public、abstract、final)
-    * 任何直接超接口的全限定名的有序列表如java.io.Closeable,             java.io.Flushable
+    * 任何直接超接口的全限定名的有序列表如java.io.Closeable, java.io.Flushable
 
 
 * 字段和方法数据
