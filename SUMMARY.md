@@ -44,7 +44,7 @@
     * [实例数据](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/shi-li-shu-ju.md)
   * [对象的访问定位](xu-ni-ji-dui-xiang/dui-xiang-de-fang-wen-ding-wei.md)
 * [垃圾收集器与内存分配策略](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve.md)
-  * JVM GC工作原理
+  * [JVM GC工作原理](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/jvm-gcgong-zuo-yuan-li.md)
   * [内存管理](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li.md)
     * [JAVA引用分类](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/javayin-yong-fen-lei.md)
     * [死亡标记](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/si-wang-biao-ji.md)
