@@ -14,6 +14,7 @@
     * 该类型是类类型还是接口类型
     * 该类型的访问修饰符(public、abstract、final)
     * 任何直接超接口的全限定名的有序列表如java.io.Closeable, java.io.Flushable
+    * 指向Class类的引用
 * 字段和方法数据
     * 字段信息：对类型中声明的每个字段
     * 方法信息
