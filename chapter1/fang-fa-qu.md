@@ -9,7 +9,7 @@
 #### 数据对象
 
 * 已加载类信息
-    该类型的全限定名如java.io.FileOutputStream
+    * 该类型的全限定名如java.io.FileOutputStream
     该类型的直接超类的全限定名如java.io.OutputStream
     该类型是类类型还是接口类型
     该类型的访问修饰符(public、abstract、final)
