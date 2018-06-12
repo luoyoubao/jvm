@@ -35,3 +35,15 @@ JVM通过类的全限定名+ClassLoader实例ID唯一标识一个被加载的类
 初始化阶段依旧是初始化类变量和其他资源，这里将执行用户的static字段和静态语句块的赋值操作。这个过程就是执行类构造器&lt; clinit &gt;方法的过程。  
 &lt; clinit &gt;方法是由编译器收集类中所有类变量的赋值动作和静态语句块的语句生成的，类构造器&lt; clinit &gt;方法与实例构造器&lt; init &gt;方法不同，这里面不用显示的调用父类的&lt; clinit &gt;方法，父类的&lt; clinit &gt;方法会自动先执行于子类的&lt; clinit &gt;方法。即父类定义的静态语句块和静态字段都要优先子类的变量赋值操作
 
+
+
+#### 基本的加载流程如下：
+
+寻找jre目录，寻找jvm.dll，并初始化JVM；  
+ 产生一个Bootstrap Loader（启动类加载器）；  
+ Bootstrap Loader，该加载器会加载它指定路径下的Java核心API，并且再自动加载Extended Loader（标准扩展类加载器），Extended Loader会加载指定路径下的扩展JavaAPI，并将其父Loader设为BootstrapLoader。  
+ Bootstrap Loader也会同时自动加载AppClass Loader（系统类加载器），并将其父Loader设为ExtendedLoader。  
+ 最后由AppClass Loader加载CLASSPATH目录下定义的类，HelloWorld类。  
+ 创建自己的类加载器  
+ 在Java应用开发过程中，可能会需要创建应用自己的类加载器。典型的场景包括实现特定的Java字节代码查找方式、对字节代码进行加密/解密以及实现同名Java类的隔离等。创建自己的类加载器并不是一件复杂的事情，只需要继承自java.lang.ClassLoader类并覆写对应的方法即可
+
