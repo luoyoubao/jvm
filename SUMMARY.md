@@ -21,7 +21,7 @@
     * [本地内存溢出](chapter1/outofmemoryerror/ben-di-nei-cun-yi-chu.md)
   * [知识点](chapter1/zhi-shi-dian.md)
   * [执行引擎](chapter1/zhi-xing-yin-qing.md)
-  * 运行时数据区关联关系
+  * [运行时数据区关联关系](chapter1/yun-xing-shi-shu-ju-qu-guan-lian-guan-xi.md)
 * [编译优化](bian-yi-you-hua.md)
   * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
   * [方法内联](bian-yi-you-hua/fang-fa-nei-lian.md)
