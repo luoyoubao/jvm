@@ -44,6 +44,7 @@
     * [实例数据](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju/shi-li-shu-ju.md)
   * [对象的访问定位](xu-ni-ji-dui-xiang/dui-xiang-de-fang-wen-ding-wei.md)
 * [垃圾收集器与内存分配策略](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve.md)
+  * JVM GC工作原理
   * [内存管理](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li.md)
     * [JAVA引用分类](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/javayin-yong-fen-lei.md)
     * [死亡标记](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/si-wang-biao-ji.md)
@@ -65,7 +66,6 @@
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
   * [GC策略的评价指标](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcce-lve-de-ping-jia-zhi-biao.md)
   * [jvm card table数据结构](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/jvm-card-tableshu-ju-jie-gou.md)
-  * JVM GC工作原理
 * [类文件结构](lei-wen-jian-jie-gou.md)
   * [魔数](lei-wen-jian-jie-gou/mo-shu.md)
   * [版本号](lei-wen-jian-jie-gou/ban-ben-hao.md)
