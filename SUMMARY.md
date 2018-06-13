@@ -50,6 +50,7 @@
     * [JAVA引用分类](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/javayin-yong-fen-lei.md)
     * [死亡标记](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/si-wang-biao-ji.md)
     * [回收方法区](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/nei-cun-guan-li/hui-shou-fang-fa-qu.md)
+    * 三色标记算法
   * [垃圾收集算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa.md)
     * [标记-清除算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/biao-8bb0-qing-chu-suan-fa.md)
     * [复制算法](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-suan-fa/fu-zhi-suan-fa.md)
