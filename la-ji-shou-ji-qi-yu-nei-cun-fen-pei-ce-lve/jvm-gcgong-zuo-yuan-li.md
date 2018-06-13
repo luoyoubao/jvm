@@ -2,7 +2,7 @@
 
 * Minor GC：新生代GC，指发生在新生代空间（包括Eden和Survivor区域）的垃圾收集动作，所有的Minor GC都会触发STW，停止应用程序的线程，不过这个过程非常短暂；
 
-* Major GC：针对所有分代区域（新生代、年老代）的GC
+* Major GC：针对所有分代区域（新生代、年老代）的GC；
 
 * Full GC：而Full GC是对整个堆来说的，在最近几个版本的JDK里默认包括了对永久代\(Hotspot GC覆盖了永久代\)即方法区的回收（JDK8移除了PermGen）；
 
