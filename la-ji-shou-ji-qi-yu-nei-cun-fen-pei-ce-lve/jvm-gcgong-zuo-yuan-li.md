@@ -1,6 +1,6 @@
 ### 相关概念
 
-* Minor GC：新生代GC，指发生在新生代空间（包括Eden和Survivor区域）的垃圾收集动作，所有的Minor GC都会触发全世界的暂停（stop-the-world），停止应用程序的线程，不过这个过程非常短暂。
+* Minor GC：新生代GC，指发生在新生代空间（包括Eden和Survivor区域）的垃圾收集动作，所有的Minor GC都会触发STW暂停（stop-the-world），停止应用程序的线程，不过这个过程非常短暂。
 
 * Major GC：针对所有分代区域（新生代、年老代）的GC
 
