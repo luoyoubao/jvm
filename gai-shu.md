@@ -6,7 +6,7 @@ JVM是可运行Java代码的假想计算机 ，包括一套字节码指令集、
 
 ## 当前主流的JVM
 
-* HotSpot
+* HotSpot   \#Sun
 * J9
 * JRockit
 
