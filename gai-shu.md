@@ -12,11 +12,9 @@ JVM是可运行Java代码的假想计算机 ，包括一套字节码指令集、
 
 ### JVM主要子系统
 
-类加载器子系统（Class Loader Subsystem）
-
-运行时数据区（Runtime Data Area）
-
-执行引擎（Execution Engine）
+* 类加载器子系统（Class Loader Subsystem）
+* 运行时数据区（Runtime Data Area）
+* 执行引擎（Execution Engine）
 
 ## 64位JVM
 
