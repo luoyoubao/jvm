@@ -91,6 +91,7 @@
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
+* JVM关闭
 * [JVM指令](jvmzhi-ling.md)
 * [附录](fu-lu.md)
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
@@ -101,5 +102,5 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-* JVM关闭
+
 
