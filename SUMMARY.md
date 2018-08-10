@@ -92,6 +92,7 @@
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
 * [JVM关闭](jvmguan-bi.md)
+  * Shutdown Hook
 * [JVM指令](jvmzhi-ling.md)
 * [附录](fu-lu.md)
   * [常用JVM指令](fu-lu/chang-yong-jvm-zhi-ling.md)
