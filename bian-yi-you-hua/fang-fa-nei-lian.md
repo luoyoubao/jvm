@@ -22,5 +22,5 @@ private int add4(int x1, int x2, int x3, int x4) {
 }
 ```
 
-
+![](/assets/20180901134308001.png)
 
