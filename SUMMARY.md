@@ -11,6 +11,7 @@
     * 字节码解释执行
       * [栈顶缓存](lei-zhi-xing-ji-zhi/zhan-ding-huan-cun.md)
       * [部分栈帧共享](lei-zhi-xing-ji-zhi/bu-fen-zhan-zheng-gong-xiang.md)
+    * 编译执行
 * [JVM运行时数据区](chapter1.md)
   * [程序计数器](chapter1/cheng-xu-ji-shu-qi.md)
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
