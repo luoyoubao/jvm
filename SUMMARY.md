@@ -2,6 +2,8 @@
 
 * [前言](README.md)
   * [概述](gai-shu.md)
+* JAVA源码编译机制
+  * [JAVA源码编译过程](javayuan-ma-bian-yi-guo-cheng.md)
 * [JVM运行时数据区](chapter1.md)
   * [程序计数器](chapter1/cheng-xu-ji-shu-qi.md)
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
@@ -103,6 +105,5 @@
   * [类或接口的访问标识](fu-lu/lei-huo-jie-kou-de-fang-wen-biao-shi.md)
   * [描述符标识字符含义](fu-lu/miao-shu-fu-biao-shi-zi-fu-han-yi.md)
   * [字段访问标识](fu-lu/zi-duan-fang-wen-biao-shi.md)
-* JAVA源码编译机制
-  * [JAVA源码编译过程](javayuan-ma-bian-yi-guo-cheng.md)
+
 
