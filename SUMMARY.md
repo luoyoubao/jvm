@@ -25,7 +25,7 @@
       * [JVM编译策略](bian-yi-you-hua/jvmbian-yi-ce-lve.md)
       * [OSR编译](bian-yi-you-hua/osrbian-yi.md)
       * [冗余削除](bian-yi-you-hua/rong-yu-xue-chu.md)
-      * 逆优化
+      * [逆优化](bian-yi-you-hua/ni-you-hua.md)
 * [JVM运行时数据区](chapter1.md)
   * [程序计数器](chapter1/cheng-xu-ji-shu-qi.md)
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
