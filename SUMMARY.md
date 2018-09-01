@@ -6,6 +6,7 @@
   * [JAVA源码编译过程](javayuan-ma-bian-yi-guo-cheng.md)
     * 分析和输入到符号表
     * 注解处理
+    * 语义分析和生成class文件
 * [JVM运行时数据区](chapter1.md)
   * [程序计数器](chapter1/cheng-xu-ji-shu-qi.md)
   * [JAVA虚拟机栈](chapter1/javaxu-ni-ji-zhan.md)
