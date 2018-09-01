@@ -8,7 +8,7 @@
     * 注解处理
     * 语义分析和生成class文件
   * [类执行机制](lei-zhi-xing-ji-zhi.md)
-    * 字节码解释执行
+    * [字节码解释执行](lei-zhi-xing-ji-zhi/zi-jie-ma-jie-shi-zhi-xing.md)
       * [栈顶缓存](lei-zhi-xing-ji-zhi/zhan-ding-huan-cun.md)
       * [部分栈帧共享](lei-zhi-xing-ji-zhi/bu-fen-zhan-zheng-gong-xiang.md)
     * [编译执行](lei-zhi-xing-ji-zhi/bian-yi-zhi-xing.md)
