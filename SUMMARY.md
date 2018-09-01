@@ -93,7 +93,7 @@
   * [ServiceLoader](lei-jia-zai-ji-zhi/serviceloader.md)
   * [类的初始化](lei-jia-zai-ji-zhi/lei-de-chu-shi-hua.md)
   * [常见的JVM类加载异常](lei-jia-zai-ji-zhi/chang-jian-de-jvm-lei-jia-zai-yi-chang.md)
-    * ClassNotFoundException
+    * [ClassNotFoundException](lei-jia-zai-ji-zhi/chang-jian-de-jvm-lei-jia-zai-yi-chang/classnotfoundexception.md)
 * [虚拟机性能调优监控与故障处理工具](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju.md)
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
