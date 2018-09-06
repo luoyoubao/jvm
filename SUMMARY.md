@@ -4,9 +4,9 @@
   * [概述](gai-shu.md)
 * [JAVA源码编译机制](javayuan-ma-bian-yi-ji-zhi.md)
   * [JAVA源码编译过程](javayuan-ma-bian-yi-guo-cheng.md)
-    * 分析和输入到符号表
-    * 注解处理
-    * 语义分析和生成class文件
+    * [分析和输入到符号表](javayuan-ma-bian-yi-guo-cheng/fen-xi-he-shu-ru-dao-fu-hao-biao.md)
+    * [注解处理](javayuan-ma-bian-yi-guo-cheng/zhu-jie-chu-li.md)
+    * [语义分析和生成class文件](javayuan-ma-bian-yi-guo-cheng/yu-yi-fen-xi-he-sheng-cheng-class-wen-jian.md)
   * [类执行机制](lei-zhi-xing-ji-zhi.md)
     * [字节码解释执行](lei-zhi-xing-ji-zhi/zi-jie-ma-jie-shi-zhi-xing.md)
       * [栈顶缓存](lei-zhi-xing-ji-zhi/zhan-ding-huan-cun.md)
