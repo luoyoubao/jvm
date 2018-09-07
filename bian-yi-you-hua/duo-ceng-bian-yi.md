@@ -15,5 +15,5 @@ Java7默认开启分层编译（tiered compilation）策略，由C1编译器和C
 client模式下的计算规则为CompileThreshold\*OnStackReplacePercentage/100，  
 server模式下计算规则为CompileThreshold\*（OnStackReplacePercentage-InterpreterProfilePercentage）/100。InterpreterProfilePercentage，默认为33。
 
-当方法上的回边计数器到达这个值时，触发后台的OSR编译，并将方法上累积的调用计数器设置为CompileThreshold 的值，同时将回边计数器设置为CompileThreshold/2的值。这样做一方面是为了避免OSR编译频繁被触发，另一方面是以便当方法被再次调用时即触发正常的编译，当累积的回边计数器的值再次达到该值时先检查OSR编译是否完成，如果已完成，则在执行循环体的代码时进入编译后的代码，如果未完成，继续把当前回边计数器的累计值再减掉一些，默认情况下，对于回边的情况，server模式下只要回边次数达到10700次（10000\*（140-33）），就会触发OSR编译。![](/assets/20180404151034001.png)
+当方法上的回边计数器到达这个值时，触发后台的OSR编译，并将方法上累积的调用计数器设置为CompileThreshold 的值，同时将回边计数器设置为CompileThreshold/2的值。这样做一方面是为了避免OSR编译频繁被触发，另一方面是以便当方法被再次调用时即触发正常的编译，当累积的回边计数器的值再次达到该值时先检查OSR编译是否完成，如果已完成，则在执行循环体的代码时进入编译后的代码，如果未完成，继续把当前回边计数器的累计值再减掉一些，默认情况下，对于回边的情况，server模式下只要回边次数达到10700次（10000\*（140-33）），就会触发OSR编译。
 
