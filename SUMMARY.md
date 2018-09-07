@@ -20,7 +20,7 @@
       * [同步消除](bian-yi-you-hua/tong-bu-xiao-chu.md)
       * [标量替换](bian-yi-you-hua/biao-liang-ti-huan.md)
       * [栈上分配](bian-yi-you-hua/zhan-shang-fen-pei.md)
-      * [去虚拟化](bian-yi-you-hua/qu-xu-ni-hua.md)
+      * [去虚拟化/逆优化](bian-yi-you-hua/qu-xu-ni-hua.md)
       * [多层编译](bian-yi-you-hua/duo-ceng-bian-yi.md)
       * [JVM编译策略](bian-yi-you-hua/jvmbian-yi-ce-lve.md)
       * [OSR编译](bian-yi-you-hua/osrbian-yi.md)
