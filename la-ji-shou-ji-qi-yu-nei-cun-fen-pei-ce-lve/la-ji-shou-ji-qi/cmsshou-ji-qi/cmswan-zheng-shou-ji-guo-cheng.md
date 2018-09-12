@@ -13,5 +13,5 @@ CMS完整的收集过程如下：
 5. 并发清理（concurrent-sweeping）：清理垃圾对象，这个阶段GC线程和用户线程并发执行。
 6. 并发重置（concurrent-reset）：重置CMS收集器的数据结构，做好下一次执行GC任务的准备工作。
 
-
+![](/assets/20180912093929001.png)
 
