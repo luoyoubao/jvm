@@ -8,8 +8,6 @@
 
 ![](/assets/java-new.jpg)![](/assets/java-new2.jpg)
 
-
-
 ### 对象在内存中的状态
 
 ![](/assets/20180622172208001.png)
