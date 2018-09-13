@@ -1,5 +1,3 @@
-![](/assets/java-new.jpg)![](/assets/java-new2.jpg)
-
 ### 对象创建原理：
 
 1. 检查类是否被加载，如果没有加载则进行加载；
