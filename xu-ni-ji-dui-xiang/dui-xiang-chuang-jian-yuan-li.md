@@ -8,6 +8,10 @@
 4. 设置对象头信息；
 5. 执行&lt;init&gt;方法；
 
+![](/assets/java-new.jpg)![](/assets/java-new2.jpg)
+
+
+
 ### 对象在内存中的状态
 
 ![](/assets/20180622172208001.png)
