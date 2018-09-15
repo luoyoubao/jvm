@@ -15,8 +15,6 @@
 
 **FGC:Full GC**
 
-#### 
-
 #### GC日志分析工具
 
 * GCHisto
