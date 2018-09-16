@@ -110,6 +110,7 @@
   * [jvm参考配置](fu-lu/jvmcan-kao-pei-zhi.md)
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
+  * 内存溢出和内存泄露
 * [JVM关闭](jvmguan-bi.md)
   * [Shutdown Hook](jvmguan-bi/shutdown-hook.md)
 * [JVM指令](jvmzhi-ling.md)
