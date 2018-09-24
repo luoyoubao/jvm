@@ -111,6 +111,7 @@
   * [jvm-jstat](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jstat.md)
   * [jvm-jmap](xu-ni-ji-xing-neng-jian-kong-yu-gu-zhang-chu-li-gong-ju/jvm-jmap.md)
   * [内存溢出和内存泄露](fu-lu/nei-cun-yi-chu-he-nei-cun-xie-lu.md)
+  * [jvm-jstack](fu-lu/jvm-jstack.md)
 * [JVM关闭](jvmguan-bi.md)
   * [Shutdown Hook](jvmguan-bi/shutdown-hook.md)
 * [JVM指令](jvmzhi-ling.md)
