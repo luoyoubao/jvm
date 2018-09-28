@@ -10,5 +10,5 @@ double r = 1.0;                 // B
 double area = pi * r * r;       // C
 ```
 
-
+![](/assets/20180928153343001.png)
 
