@@ -34,6 +34,15 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 
 * StoreLoad屏障：对于这样的语句Store1; StoreLoad; Load2，在Load2及后续所有读取操作执行前，保证Store1的写入对所有处理器可见。它的开销是四种屏障中最大的。在大多数处理器的实现中，这个屏障是个万能屏障，兼具其它三种内存屏障的功能
 
+基于保守策略的JMM内存屏障插入策略：
+
+* 在每个volatile写操作的前面插入一个StoreStore屏障；
+* 在每个volatile写操作的后面插入一个StoreLoad屏障；
+* 在每个volatile读操作的后面插入一个LoadLoad屏障；
+* 在每个volatile读操作的后面插入一个LoadStore屏障；
+
+
+
 _**参考资料**_
 
 【Java内存模型Cookbook（二）内存屏障】[http://ifeve.com/jmm-cookbook-mb/](http://ifeve.com/jmm-cookbook-mb/)
