@@ -12,13 +12,7 @@
 
 ![](/assets/20180413174357001.png)
 
-
-
 _**参考资料**_
-
-【happens-before俗解】[http://ifeve.com/easy-happens-before/](http://ifeve.com/easy-happens-before/)
-
-【死磕Java并发--Java内存模型之happens-before】 [http://cmsblogs.com/?p=2102](http://cmsblogs.com/?p=2102)
 
 【JMM Cookbook\(一\)指令重排】[http://ifeve.com/jmm-cookbook-reorderings/](http://ifeve.com/jmm-cookbook-reorderings/)
 
