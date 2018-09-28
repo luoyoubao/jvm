@@ -52,7 +52,7 @@ volatile读插入内存屏障后生成的指令序列示意图
 
 ![](/assets/20180928160823001.png)
 
-
+上图中的LoadLoad屏障用来禁止处理器把上面的volatile读与下面的普通读重排序。LoadStore屏障用来禁止处理器把上面的volatile读与下面的普通写重排序。
 
 
 
