@@ -41,7 +41,7 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 * 在每个volatile读操作的后面插入一个LoadLoad屏障；
 * 在每个volatile读操作的后面插入一个LoadStore屏障；
 
-
+![](/assets/20180928155831001.png)
 
 _**参考资料**_
 
