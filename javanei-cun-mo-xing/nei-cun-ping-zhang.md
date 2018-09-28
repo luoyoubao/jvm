@@ -19,7 +19,6 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 如果一个变量是volatile修饰的，JMM会在写入这个字段之后插进一个Write-Barrier指令，并在读这个字段之前插入一个Read-Barrier指令。这意味着，如果写入一个volatile变量，就可以保证：
 
 * 一个线程写入变量a后，任何线程访问该变量都会拿到最新值。
-
 * 在写入变量a之前的写入操作，其更新的数据对于其他线程也是可见的。因为Memory Barrier会刷出cache中的所有先前的写入。
 
 ### 内存屏障类型
