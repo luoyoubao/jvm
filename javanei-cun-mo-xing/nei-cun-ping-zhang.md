@@ -45,6 +45,8 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 
 ![](/assets/20180928155831001.png)
 
+上图中的StoreStore屏障可以保证在volatile写之前，其前面的所有普通写操作已经对任意处理器可见了。这是因为StoreStore屏障将保障上面所有的普通写在volatile写之前刷新到主内存
+
 _**参考资料**_
 
 【Java内存模型Cookbook（二）内存屏障】[http://ifeve.com/jmm-cookbook-mb/](http://ifeve.com/jmm-cookbook-mb/)
