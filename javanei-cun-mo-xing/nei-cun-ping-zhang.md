@@ -6,9 +6,9 @@
 
 内存屏障是一条这样的指令：
 
-* 保证特定操作的执行顺序。
+* 保证特定操作的执行顺序；
 
-* 影响某些数据（或是某条指令的执行结果）的内存可见性。
+* 影响某些数据（或是某条指令的执行结果）的内存可见性；
 
 编译器和CPU能够重排序指令，保证最终相同的结果，尝试优化性能。插入一条Memory Barrier会告诉编译器和CPU：不管什么指令都不能和这条Memory Barrier指令重排序。
 
@@ -52,6 +52,14 @@ Memory Barrier所做的另外一件事是强制刷出各种CPU cache，如一个
 注意volatile写后面的StoreLoad屏障：此屏障的作用是避免volatile写与后面可能有的volatile读/写操作重排序。因为编译器常常无法准确判断在一个volatile写的后面是否需要插入一个StoreLoad屏障（比如，一个volatile写之后方法立即return）。为了保证能正确实现volatile的内存语义，JMM在采取了保守策略：在每个volatile写的后面，或者在每个volatile读的前面插入一个StoreLoad屏障。从整体执行效率的角度考虑，JMM最终选择了在每个volatile写的后面插入一个StoreLoad屏障。因为volatile写-读内存语义的常见使用模式是：一个写线程写volatile变量，多个读线程读同一个volatile变量。当读线程的数量大大超过写线程时，选择在volatile写之后插入StoreLoad屏障将带来可观的执行效率的提升。从这里可以看到JMM在实现上的一个特点：首先确保正确性，然后再去追求执行效率
 
 ### volatile读
+
+volatile读插入内存屏障后生成的指令序列示意图
+
+
+
+
+
+
 
 
 
