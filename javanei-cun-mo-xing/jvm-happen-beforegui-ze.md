@@ -40,3 +40,9 @@ Thread独享的start\(\)方法先行于此线程的每一个动作。
 
 
 
+_**参考资料**_
+
+【happens-before俗解】[http://ifeve.com/easy-happens-before/](http://ifeve.com/easy-happens-before/)
+
+【死磕Java并发--Java内存模型之happens-before】 [http://cmsblogs.com/?p=2102](http://cmsblogs.com/?p=2102)
+
