@@ -2,7 +2,7 @@
 
 * [前言](README.md)
   * [概述](gai-shu.md)
-  * [Compile once, run anywhere](write-once-run-anywhere.md)
+  * [Write once, run anywhere](write-once-run-anywhere.md)
 * [JAVA源码编译机制](javayuan-ma-bian-yi-ji-zhi.md)
   * [JAVA源码编译过程](javayuan-ma-bian-yi-guo-cheng.md)
     * [分析和输入到符号表](javayuan-ma-bian-yi-guo-cheng/fen-xi-he-shu-ru-dao-fu-hao-biao.md)
