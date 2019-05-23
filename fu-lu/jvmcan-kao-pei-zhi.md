@@ -39,5 +39,9 @@ JAVA_OPTS="${JAVA_OPTS} -Dsun.net.client.defaultReadTimeout=30000"
 java -Djava.security.egd=file:/dev/./urandom $JAVA_OPTS -jar ./app.jar  $*
 ```
 
+### 其它
 
+* -Xint
+
+解释执行不对代码进行编译，这种模式抛弃了 JIT 可能带来的性能优势，毕竟解释器（interpreter）是逐条读入，逐条解释运行的；
 
