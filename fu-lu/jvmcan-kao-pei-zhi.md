@@ -45,3 +45,7 @@ java -Djava.security.egd=file:/dev/./urandom $JAVA_OPTS -jar ./app.jar  $*
 
 解释执行不对代码进行编译，这种模式抛弃了 JIT 可能带来的性能优势，毕竟解释器（interpreter）是逐条读入，逐条解释运行的；
 
+* -Xcomp
+
+关闭解释器，不要进行解释执行，或者叫作最大优化级别；“-Xcomp”会导致 JVM 启动变慢非常多，同时有些JIT 编译器优化方式，比如分支预测，如果不进行 profiling，往往并不能进行有效优化
+
