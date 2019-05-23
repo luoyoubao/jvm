@@ -9,5 +9,11 @@ jaotc--outputlibHelloWorld.soHelloWorld.class
 jaotc--outputlibjava.base.so--modulejava.base
 ```
 
+启动：
+
+```
+java -XX:AOTLibrary=./libHelloWorld.so,./libjava.base.so HelloWorld
+```
+
 
 
