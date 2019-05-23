@@ -13,6 +13,7 @@
       * [部分栈帧共享](lei-zhi-xing-ji-zhi/bu-fen-zhan-zheng-gong-xiang.md)
     * [编译执行](lei-zhi-xing-ji-zhi/bian-yi-zhi-xing.md)
       * [C1与C2编译器](lei-zhi-xing-ji-zhi/bian-yi-zhi-xing/c1yu-c2-bian-yi-qi.md)
+      * [AOT](lei-zhi-xing-ji-zhi/bian-yi-zhi-xing/aot.md)
     * [编译优化](bian-yi-you-hua.md)
       * [字符串优化](bian-yi-you-hua/zi-fu-chuan-you-hua.md)
       * [方法内联](bian-yi-you-hua/fang-fa-nei-lian.md)
