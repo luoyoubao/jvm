@@ -15,5 +15,5 @@ jaotc--outputlibjava.base.so--modulejava.base
 java -XX:AOTLibrary=./libHelloWorld.so,./libjava.base.so HelloWorld
 ```
 
-
+OracleJDK支持分层编译和AOT协作使用，这两者并不是二选一的关系。如果你有兴趣，可以参考相关文档：http://openjdk.java.net/jeps/295；AOT也不仅仅是只有这一种方式，业界早就有第三方工具（如GCJ、ExcelsiorExcelsiorJET）提供相关功能
 
