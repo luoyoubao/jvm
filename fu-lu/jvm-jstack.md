@@ -7,5 +7,7 @@ grep Thread.State dump31034 | awk '{print $2$3$4$5}' | sort | uniq -c   ### 统�
 2 WAITING(onobjectmonitor)
 ```
 
+jstack默认只能看到java栈
 
+jstack -m可以看到线程的Java栈和native栈
 
