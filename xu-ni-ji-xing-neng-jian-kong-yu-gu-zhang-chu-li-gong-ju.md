@@ -12,13 +12,22 @@ Jstack [pid]:查看jvm线程运行状态，是否有死锁现象等等信息
 jstat:一个极强的监视VM内存工具。可以用来监视VM内存内的各种堆和非堆的大小及其内存使用量
 ```
 
-#### 常用工具
+#### CPU相关工具
 
-BTrace
+* top
+* jstack
+* perf
 
-mat
+#### 
 
-zprofiler
+#### 
 
-jprofiler
+#### 内存相关工具
+
+* BTrace
+* mat
+* zprofiler
+* jprofiler
+
+
 
