@@ -44,6 +44,7 @@
     * [递归方法](chapter1/dui-zhan-yi-chu/stackoverflowerror.md)
   * [OutOfMemoryError](chapter1/outofmemoryerror.md)
     * [本地内存溢出](chapter1/outofmemoryerror/ben-di-nei-cun-yi-chu.md)
+  * [JVM内存区域分布](chapter1/jvmnei-cun-qu-yu-fen-bu.md)
   * [知识点](chapter1/zhi-shi-dian.md)
   * [执行引擎](chapter1/zhi-xing-yin-qing.md)
   * [运行时数据区关联关系](chapter1/yun-xing-shi-shu-ju-qu-guan-lian-guan-xi.md)
