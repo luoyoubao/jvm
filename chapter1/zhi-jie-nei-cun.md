@@ -34,7 +34,7 @@ _**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer
 
 * 直接内存：可通过-XX：MaxDirectMemorySize调整大小，内存不足时抛出OutOf-MemoryError或 者OutOfMemoryError：Direct buffer memory；
 
-* 线程堆栈：可通过-Xss调整大小，内存不足时抛出StackOverflowError（如果线程请求的栈深度大 于虚拟机所允许的深度）或者OutOfMemoryError（如果Java虚拟机栈容量可以动态扩展，当栈扩展时 无法申请到足够的内存）；
+* 线程堆栈：可通过-Xss调整大小，内存不足时抛出StackOverflowError（如果线程请求的栈深度大 于虚拟机所允许的深度）或者OutOfMemoryError（如果Java虚拟机栈容量可以动态扩展，当栈扩展时无法申请到足够的内存）；
 
 * -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
 
