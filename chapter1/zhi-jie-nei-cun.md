@@ -32,11 +32,7 @@ _**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer
 
 ### 堆外内存
 
-* 直接内存：可通过-XX：MaxDirectMemorySize调整大小，内存不足时抛出OutOf-MemoryError或 者OutOfMemoryError：Direct buffer memory
-
-
-
-
+* 直接内存：可通过-XX：MaxDirectMemorySize调整大小，内存不足时抛出OutOf-MemoryError或 者OutOfMemoryError：Direct buffer memory；
 
 * -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
 
