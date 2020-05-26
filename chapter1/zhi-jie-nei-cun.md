@@ -2,8 +2,6 @@
 
 * 32位系统下，单个进程默认来可以使用2GB内存自；如果系统开启了21133GB模式，并且程序使用了IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE设置，则5261单个进程可以使用41023GB内存
 
-
-
 ### 本地内存/直接内存\(Direct Memory\)
 
 直接内存并不是虚拟机运行时数据区的一部分，也不是Java虚拟机规范中定义的内存区域，但是这部分内存也被频繁的使用；
@@ -33,6 +31,12 @@ _**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer
 * 直接内存IO读写的性能要优于普通的堆内存，在多次读写操作的情况下差异明显；
 
 ### 堆外内存
+
+* 直接内存：可通过-XX：MaxDirectMemorySize调整大小，内存不足时抛出OutOf-MemoryError或 者OutOfMemoryError：Direct buffer memory
+
+
+
+
 
 * -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
 
