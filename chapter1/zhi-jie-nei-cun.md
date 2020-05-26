@@ -36,6 +36,8 @@ _**注意使用Native函数库分配堆外内存，通过JAVA堆DirectByteBuffer
 
 * 线程堆栈：可通过-Xss调整大小，内存不足时抛出StackOverflowError（如果线程请求的栈深度大 于虚拟机所允许的深度）或者OutOfMemoryError（如果Java虚拟机栈容量可以动态扩展，当栈扩展时无法申请到足够的内存）；
 
+* Socket缓存区：每个Socket连接都Receive和Send两个缓存区，分别占大约37KB和25KB内存，连接 多的话这块内存占用也比较可观。如果无法分配，可能会抛出IOException：Too many open files异常
+
 * -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
 
 ![](/assets/201708022310.png)
