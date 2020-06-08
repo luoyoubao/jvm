@@ -55,7 +55,7 @@
   * [as-if-serial语义](javanei-cun-mo-xing/as-if-serialyu-yi.md)
   * [Happen-Before规则](javanei-cun-mo-xing/jvm-happen-beforegui-ze.md)
   * [数据依赖性](javanei-cun-mo-xing/shu-ju-yi-lai-xing.md)
-  * 原子性、可见性与有序性
+  * [原子性、可见性与有序性](javanei-cun-mo-xing/yuan-zi-xing-3001-ke-jian-xing-yu-you-xu-xing.md)
 * [虚拟机对象](xu-ni-ji-dui-xiang.md)
   * [对象创建原理](xu-ni-ji-dui-xiang/dui-xiang-chuang-jian-yuan-li.md)
   * [对象内存布局](xu-ni-ji-dui-xiang/dui-xiang-nei-cun-bu-ju.md)
