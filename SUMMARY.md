@@ -49,6 +49,7 @@
   * [运行时数据区关联关系](chapter1/yun-xing-shi-shu-ju-qu-guan-lian-guan-xi.md)
 * [内存模型](javanei-cun-mo-xing.md)
   * [JAVA内存模型](javanei-cun-mo-xing/javanei-cun-mo-xing.md)
+  * [JMM八种操作指令](javanei-cun-mo-xing/jmmba-zhong-cao-zuo-zhi-ling.md)
   * [内存屏障](javanei-cun-mo-xing/nei-cun-ping-zhang.md)
   * [指令重排](chapter1/zhi-ling-zhong-pai.md)
   * [as-if-serial语义](javanei-cun-mo-xing/as-if-serialyu-yi.md)
