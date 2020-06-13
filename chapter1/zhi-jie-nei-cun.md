@@ -10,7 +10,7 @@
 
 #### 特性
 
-* -XX:MaxDirectMemorySize 最大值，默认和 Java 堆最大值一样
+* -XX:MaxDirectMemorySize 最大值，默认和Java堆最大值一样
 
 * 不属于运行时数据区
 
