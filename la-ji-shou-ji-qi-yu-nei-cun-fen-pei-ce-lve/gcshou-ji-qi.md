@@ -1,10 +1,8 @@
-G1
+* G1
+* Shenandoah
+* Zing
+* Epsilon GC
+* ZGC
 
-Shenandoah
 
-Zing
-
-Epsilon GC
-
-ZGC
 
