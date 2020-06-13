@@ -6,7 +6,7 @@
 
 直接内存并不是虚拟机运行时数据区的一部分，也不是Java虚拟机规范中定义的内存区域，但是这部分内存也被频繁的使用；
 
-内存不足时抛出OutOf-MemoryError或 者OutOfMemoryError：Direct buffer memory
+内存不足时抛出OutOfMemoryError或 者OutOfMemoryError：Direct buffer memory
 
 #### 特性
 
