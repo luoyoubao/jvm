@@ -18,7 +18,11 @@ jstat:一个极强的监视VM内存工具。可以用来监视VM内存内的各�
 * jstack
 * perf
 
-#### 
+
+
+JDK工具
+
+JFR/JMC
 
 #### 
 
@@ -33,11 +37,11 @@ jstat:一个极强的监视VM内存工具。可以用来监视VM内存内的各�
 * jprofiler
 * gperf
 
-
-
 其它：
 
 VisualVM及其扩展插件VisualGC
+
+
 
 
 
