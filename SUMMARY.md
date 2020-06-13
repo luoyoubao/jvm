@@ -85,7 +85,7 @@
     * [CMS收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/cmsshou-ji-qi.md)
       * [CMS完整收集过程](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/cmsshou-ji-qi/cmswan-zheng-shou-ji-guo-cheng.md)
     * [G1收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/g1shou-ji-qi.md)
-    * Shenandoah
+    * [Shenandoah](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/shenandoah.md)
     * [ZGC](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/zgc.md)
   * [GC收集器](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/la-ji-shou-ji-qi/gcshou-ji-qi.md)
   * [GC日志](la-ji-shou-ji-qi-yu-nei-cun-fen-pei-ce-lve/gcri-zhi.md)
